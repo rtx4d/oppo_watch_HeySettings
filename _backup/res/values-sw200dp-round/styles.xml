@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WearText.Body1" parent="@style/WearText">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="WearText.Body2" parent="@style/WearText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="WearText.Button" parent="@style/WearText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+    </style>
+    <style name="WearText.Caption" parent="@style/WearText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="WearText.Subhead" parent="@style/WearText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+    </style>
+    <style name="WearText.Title" parent="@style/WearText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">google-sans</item>
+    </style>
+</resources>

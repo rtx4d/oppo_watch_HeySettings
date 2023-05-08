@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Fotografske aplikacije</item>
+        <item quantity="one">Fotografske aplikacije</item>
+        <item quantity="two">Fotografski aplikaciji</item>
+        <item quantity="few">Fotografske aplikacije</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">E-poštni odjemalci</item>
+        <item quantity="one">E-poštni odjemalci</item>
+        <item quantity="two">E-poštna odjemalca</item>
+        <item quantity="few">E-poštni odjemalci</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Aplikacije za klicanje</item>
+        <item quantity="one">Aplikacije za klicanje</item>
+        <item quantity="two">Aplikaciji za klicanje</item>
+        <item quantity="few">Aplikacije za klicanje</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Najmanj %d potrdil overitelja potrdil</item>
+        <item quantity="one">Najmanj %d potrdilo overitelja potrdil</item>
+        <item quantity="two">Najmanj %d potrdili overitelja potrdil</item>
+        <item quantity="few">Najmanj %d potrdila overitelja potrdil</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d poskusov</item>
+        <item quantity="one">%d poskus</item>
+        <item quantity="two">%d poskusa</item>
+        <item quantity="few">%d poskusi</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d aplikacij</item>
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikaciji</item>
+        <item quantity="few">%d aplikacije</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Najmanj %d aplikacij</item>
+        <item quantity="one">Najmanj %d aplikacija</item>
+        <item quantity="two">Najmanj %d aplikaciji</item>
+        <item quantity="few">Najmanj %d aplikacije</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Geslo mora imeti vsaj %d črk.</item>
+        <item quantity="one">Geslo mora imeti vsaj %d črko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d črki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d črke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Geslo mora imeti vsaj %d malih črk.</item>
+        <item quantity="one">Geslo mora imeti vsaj %d malo črko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d mali črki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d male črke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Geslo mora imeti vsaj %d znakov, ki niso črke.</item>
+        <item quantity="one">Geslo mora imeti vsaj %d znak, ki ni črka.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d znaka, ki nista črki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d znake, ki niso črke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Geslo mora imeti vsaj %d številk.</item>
+        <item quantity="one">Geslo mora imeti vsaj %d številko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d številki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d številke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Geslo mora imeti vsaj %d posebnih znakov.</item>
+        <item quantity="one">Geslo mora imeti vsaj %d posebni znak.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d posebna znaka.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d posebne znake.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Geslo mora imeti vsaj %d velikih črk.</item>
+        <item quantity="one">Geslo mora imeti vsaj %d veliko črko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d veliki črki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d velike črke.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Prilagoditev fizičnih gumbov</item>
+        <item quantity="one">Prilagoditev fizičnega gumba</item>
+        <item quantity="two">Prilagoditev fizičnih gumbov</item>
+        <item quantity="few">Prilagoditev fizičnih gumbov</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">še %d poskusov</item>
+        <item quantity="one">še %d poskus</item>
+        <item quantity="two">še %d poskusa</item>
+        <item quantity="few">še %d poskusi</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Vklopljeno za %d ur</item>
+        <item quantity="one">Vklopljeno za %d uro</item>
+        <item quantity="two">Vklopljeno za %d uri</item>
+        <item quantity="few">Vklopljeno za %d ure</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Vklopljeno za %d min.</item>
+        <item quantity="one">Vklopljeno za %d min.</item>
+        <item quantity="two">Vklopljeno za %d min.</item>
+        <item quantity="few">Vklopljeno za %d min.</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Povezanih je %1$d naprav</item>
+        <item quantity="one">Povezana je %1$d naprava</item>
+        <item quantity="two">Povezani sta %1$d napravi</item>
+        <item quantity="few">Povezane so %1$d naprave</item>
+    </plurals>
+</resources>

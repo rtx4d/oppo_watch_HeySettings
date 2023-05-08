@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/main_gestures" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.clockwork.settings.gestures.HeytapWearSettingsPreference android:order="5" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/pref_tiltToWake" android:key="pref_tiltToWake" android:order="10" app:dialogMessage="@string/enable_ambient_screen_subtitle" app:dialogTitle="@string/enable_tilt_to_wake" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_tiltToBright" android:key="pref_tiltToBright" android:order="20" />
+    <Preference android:icon="@drawable/ic_cc_empty" android:persistent="false" android:title="@string/ttb_education_title" android:key="pref_tiltToBrightWatchFace" android:order="25" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_touchToWakeAlt" android:key="pref_touchToWake" android:order="30" />
+    <Preference android:icon="@drawable/ic_cc_settings_wrist_gesture_on" android:persistent="false" android:title="@string/pref_wristGesturesMenu" android:key="pref_wristGesturesMenu" android:order="40" android:fragment="com.google.android.clockwork.settings.gestures.WristGesturesSettingsFragment" />
+</PreferenceScreen>

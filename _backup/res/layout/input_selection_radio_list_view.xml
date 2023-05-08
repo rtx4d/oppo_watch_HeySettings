@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:background="@color/radio_list_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/primary_text_dark" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_padding_top_round" />
+    <android.support.wearable.view.WearableListView android:id="@id/wheel" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/setting_empty_text_size" android:textColor="@color/bright_text_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/empty" android:paddingTop="@dimen/setting_empty_text_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif-condensed-light" />
+</FrameLayout>

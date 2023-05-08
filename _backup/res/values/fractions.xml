@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="action_drawer_item_first_item_top_padding">14.999998%</fraction>
+    <fraction name="action_drawer_item_last_item_bottom_padding">14.999998%</fraction>
+    <fraction name="action_drawer_item_left_padding">14.999998%</fraction>
+    <fraction name="action_drawer_item_right_padding">10.000002%</fraction>
+    <fraction name="battery_button_height_fraction">10.500002%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">0.0%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">0.0%</fraction>
+    <fraction name="bt_battery_button_height_fraction">7.799995%</fraction>
+    <fraction name="bt_battery_ratio_fraction">35.000004%</fraction>
+    <fraction name="bt_battery_scale_fraction">75.0%</fraction>
+    <fraction name="confirmation_dialog_action_circle_radius_percent">50.0%</fraction>
+    <fraction name="confirmation_dialog_action_height_percent">39.999996%</fraction>
+    <fraction name="confirmation_dialog_button_height_percent">60.000004%</fraction>
+    <fraction name="confirmation_dialog_button_margin_percent">14.999998%</fraction>
+    <fraction name="confirmation_dialog_message_width_percent">79.99999%</fraction>
+    <fraction name="confirmation_dialog_title_margin_top_percent">14.999998%</fraction>
+    <fraction name="confirmation_dialog_title_width_percent">79.99999%</fraction>
+    <item type="fraction" name="confirmation_icon_percentage">0.5</item>
+    <fraction name="confirmation_overlay_margin_above_text">4.999995%</fraction>
+    <fraction name="confirmation_overlay_margin_side">4.1669965%</fraction>
+    <fraction name="nav_drawer_margin_2_items">20.000004%</fraction>
+    <fraction name="nav_drawer_margin_3_items">15.999996%</fraction>
+    <fraction name="nav_drawer_margin_4_items_horizontal">13.0%</fraction>
+    <fraction name="nav_drawer_margin_4_items_vertical">16.900003%</fraction>
+    <fraction name="nav_drawer_margin_5_items_horizontal_middle_row">13.0%</fraction>
+    <fraction name="nav_drawer_margin_5_items_horizontal_outer_rows">27.400005%</fraction>
+    <fraction name="nav_drawer_margin_5_items_vertical">16.900003%</fraction>
+    <fraction name="nav_drawer_margin_6_items_horizontal">15.999996%</fraction>
+    <fraction name="nav_drawer_margin_6_items_vertical">26.800001%</fraction>
+    <fraction name="nav_drawer_margin_7_items_horizontal_middle_row">13.0%</fraction>
+    <fraction name="nav_drawer_margin_7_items_horizontal_outer_rows">27.400005%</fraction>
+    <fraction name="nav_drawer_margin_7_items_vertical">16.900003%</fraction>
+    <fraction name="nav_drawer_text_margin">13.0%</fraction>
+    <fraction name="titled_wearable_list_view_margin_left_percent">8.800006%</fraction>
+    <fraction name="titled_wearable_list_view_margin_right_percent">8.800006%</fraction>
+    <fraction name="ws_action_drawer_item_first_item_top_padding">14.999998%</fraction>
+    <fraction name="ws_action_drawer_item_last_item_bottom_padding">14.999998%</fraction>
+    <fraction name="ws_action_drawer_item_left_padding">14.999998%</fraction>
+    <fraction name="ws_action_drawer_item_right_padding">10.000002%</fraction>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/toast_background" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/dp_10">
+        <TextView android:textSize="@dimen/l_desription" android:textColor="@color/primary_text_dark" android:gravity="center|top" android:id="@id/show_detail_info" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/screen_always_on_textView_padding_top" android:minHeight="@dimen/textview_min_high" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="bottom|center" android:id="@id/confrm_dismiss" android:background="@drawable/hey_accept_deny_dialog_positive_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/screen_always_on_imagebutton_margin_top" android:layout_marginBottom="@dimen/imageView_padding_bottom" android:src="@drawable/hey_ic_cc_checkmark" />
+    </LinearLayout>
+</ScrollView>

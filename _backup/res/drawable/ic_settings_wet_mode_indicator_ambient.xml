@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/black" />
+            <size android:height="40.0dip" android:width="40.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <vector android:height="@dimen/wet_mode_indicator_size" android:width="@dimen/wet_mode_indicator_size" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:fillColor="@android:color/black" android:pathData="M17.84,12.87L13.3,10.61C13.13,10.54 12.95,10.5 12.76,10.5L12,10.5L12,4.5C12,3.67 11.33,3 10.5,3C9.67,3 9,3.67 9,4.5L9,15.24L5.57,14.52C5.49,14.51 5.42,14.49 5.33,14.49C5.02,14.49 4.74,14.62 4.54,14.82L3.75,15.62L8.69,20.56C8.96,20.83 9.34,21 9.75,21L16.54,21C17.29,21 17.87,20.45 17.98,19.72L18.73,14.45C18.74,14.38 18.75,14.31 18.75,14.25C18.75,13.63 18.37,13.09 17.84,12.87L17.84,12.87Z" android:strokeColor="@android:color/white" />
+        </vector>
+    </item>
+</layer-list>

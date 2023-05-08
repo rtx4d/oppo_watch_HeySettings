@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/light_bg" android:paddingTop="@dimen/welcome_top_inset" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/battery_text" android:background="@drawable/battery_bg" android:paddingLeft="4.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/battery_level_icon" android:drawablePadding="2.0dip" android:fontFamily="sans-serif-condensed-light" />
+    <TextView android:gravity="center|left|top" android:id="@id/welcome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/circ_side_content_inset" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/circ_side_content_inset" android:minHeight="52.0dip" android:text="@string/install_wear" style="@style/SetupText" />
+    <TextView android:id="@id/device_name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/circ_side_content_inset" android:layout_marginRight="@dimen/circ_side_content_inset" android:layout_weight="1.0" style="@style/SetupSubText" />
+    <RelativeLayout android:id="@id/image_container" android:background="@color/dark_bg" android:paddingLeft="@dimen/circ_side_content_inset" android:paddingRight="@dimen/circ_side_content_inset" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_app_playstore" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

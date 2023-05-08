@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pairing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginRight="@dimen/rect_side_content_inset" android:text="@string/enter_demo_mode" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:lineSpacingExtra="-2.0sp" style="@style/SetupRetailText" />
+    <ImageView android:id="@id/cancel" android:layout_width="@dimen/pair_button_diameter" android:layout_height="@dimen/pair_button_diameter" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginBottom="@dimen/rect_side_content_inset" android:src="@drawable/cancel_circle" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/enter_retail" android:layout_width="@dimen/pair_button_diameter" android:layout_height="@dimen/pair_button_diameter" android:layout_marginRight="@dimen/rect_side_content_inset" android:layout_marginBottom="@dimen/rect_side_content_inset" android:src="@drawable/lock_circle" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_cellular" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:persistent="false" android:title="@string/pref_cellularToggle" android:key="pref_cellularToggle" />
+    <ListPreference android:persistent="false" android:entries="@array/cellular_state_entries" android:title="@string/pref_cellularToggle" android:key="pref_cellularToggleV2" android:summary="%s" />
+    <Preference android:icon="@drawable/heytap_mobile_data" android:persistent="false" android:title="@string/heytap_cellularToggle" android:key="heytap_pref_mobile_data">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.heytap.mobile.HeytapMobileDataActivity" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_cc_settings_cellular_4" android:persistent="false" android:title="@string/pref_esimProfile" android:key="pref_esimProfile">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.cellular.EsimProfileActivity" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_data_usage" android:persistent="false" android:title="@string/pref_dataUsage" android:key="pref_dataUsage">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.cellular.DataUsageActivity" />
+    </Preference>
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenyDialogPreference android:icon="@drawable/ic_cc_data_usage" android:persistent="false" android:title="@string/pref_resumeData" android:key="pref_resumeData" app:dialogMessage="@string/pref_resumeData_dialogMessage" app:dialogTitle="@string/pref_resumeData_dialogTitle" />
+    <com.google.android.clockwork.settings.RestrictedAcceptDenySwitchPreference android:persistent="false" android:title="@string/pref_dataRoaming" android:key="pref_dataRoaming" app:dialogMessage="@string/pref_dataRoaming_dialogMessage" app:dialogTitle="@string/pref_dataRoaming_dialogTitle" />
+    <Preference android:icon="@drawable/ic_settings_sim_card" android:persistent="false" android:title="@string/pref_simStatus" android:key="pref_simStatus" android:fragment="com.google.android.clockwork.settings.cellular.SimStatusFragment" />
+    <Preference android:icon="@drawable/ic_cc_unlock" android:persistent="false" android:title="@string/pref_unlockSim" android:key="pref_unlockSim" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_lockSimCard" android:key="pref_lockSimToggle" />
+    <Preference android:icon="@drawable/ic_cc_unlock" android:persistent="false" android:title="@string/pref_changeSimPin" android:key="pref_changeSimPin" />
+    <android.support.wearable.preference.WearableDialogPreference android:icon="@drawable/ic_cc_settings_call_forwarding" android:persistent="false" android:title="@string/pref_callForwarding" android:key="pref_callForwarding" android:positiveButtonText="@string/pref_callForwarding_turnOn" android:negativeButtonText="@string/pref_callForwarding_turnOff" app:negativeButtonIcon="@drawable/action_no_thanks" app:neutralButtonIcon="@drawable/action_open_on_phone" app:neutralButtonText="@string/action_open_on_phone" app:positiveButtonIcon="@drawable/action_accept" />
+    <android.support.wearable.preference.WearableDialogPreference android:icon="@drawable/ic_cc_settings_call_forwarding" android:persistent="false" android:title="@string/pref_callForwarding" android:key="pref_callForwardingIos" android:dialogTitle="@string/pref_callForwarding_infoTitle" android:dialogMessage="@string/pref_callForwarding_infoMessage" android:positiveButtonText="@null" android:negativeButtonText="@null" app:neutralButtonIcon="@drawable/action_open_on_phone" app:neutralButtonText="@string/action_open_on_phone" />
+    <ListPreference android:icon="@drawable/ic_settings_sms_app" android:persistent="false" android:title="@string/pref_defaultSms" android:key="pref_defaultSms" android:dialogTitle="@string/default_sms_title" android:negativeButtonText="@null" />
+    <Preference android:icon="@drawable/heytap_ic_settings_device_only" android:persistent="false" android:title="@string/pref_phoneNumber" android:key="pref_phoneNumber" />
+    <Preference android:icon="@drawable/ic_settings_voicemail" android:persistent="false" android:title="@string/pref_voicemailNumber" android:key="pref_voicemailNumber" />
+    <Preference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/pref_advancedSettings" android:key="pref_advancedSettings" android:fragment="com.google.android.clockwork.settings.cellular.CellularAdvancedFragment" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_location" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/heytap_location_service" android:key="heytap_pref_locationToggle" android:order="10" />
+    <SwitchPreference android:persistent="false" android:title="@string/heytap_assist_location" android:key="heytap_pref_locationAssistToggle" android:summary="@string/heytap_location_assist_tips" android:order="20" />
+</PreferenceScreen>

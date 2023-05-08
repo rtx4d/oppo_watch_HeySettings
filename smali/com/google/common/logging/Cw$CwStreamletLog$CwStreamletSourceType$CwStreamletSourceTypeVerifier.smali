@@ -1,0 +1,77 @@
+.class final Lcom/google/common/logging/Cw$CwStreamletLog$CwStreamletSourceType$CwStreamletSourceTypeVerifier;
+.super Ljava/lang/Object;
+.source "Cw.java"
+
+# interfaces
+.implements Lcom/google/protobuf/Internal$EnumVerifier;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/logging/Cw$CwStreamletLog$CwStreamletSourceType;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1a
+    name = "CwStreamletSourceTypeVerifier"
+.end annotation
+
+
+# static fields
+.field static final INSTANCE:Lcom/google/protobuf/Internal$EnumVerifier;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 15337
+    new-instance v0, Lcom/google/common/logging/Cw$CwStreamletLog$CwStreamletSourceType$CwStreamletSourceTypeVerifier;
+
+    invoke-direct {v0}, Lcom/google/common/logging/Cw$CwStreamletLog$CwStreamletSourceType$CwStreamletSourceTypeVerifier;-><init>()V
+
+    sput-object v0, Lcom/google/common/logging/Cw$CwStreamletLog$CwStreamletSourceType$CwStreamletSourceTypeVerifier;->INSTANCE:Lcom/google/protobuf/Internal$EnumVerifier;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 15335
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public isInRange(I)Z
+    .locals 1
+    .param p1, "number"    # I
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "number"
+        }
+    .end annotation
+
+    .line 15340
+    invoke-static {p1}, Lcom/google/common/logging/Cw$CwStreamletLog$CwStreamletSourceType;->forNumber(I)Lcom/google/common/logging/Cw$CwStreamletLog$CwStreamletSourceType;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+.end method

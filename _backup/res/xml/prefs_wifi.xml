@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_wifi"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:key="pref_wifi_toggle" />
+    <PreferenceScreen android:persistent="false" android:key="pref_wifi_current_network">
+        <Preference android:persistent="false" android:title="@string/wifi_advanced_ip_address_title" android:key="pref_wifi_view_ip_address" />
+        <Preference android:persistent="false" android:title="@string/wifi_advanced_mac_address_title" android:key="pref_wifi_view_mac_address" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_cc_settings_add" android:persistent="false" android:title="@string/wifi_add_network_action" android:key="pref_wifi_add_network" android:fragment="com.google.android.clockwork.settings.connectivity.wifi.WifiAddNetworkFragment" />
+    <PreferenceScreen android:icon="@drawable/ic_cc_settings_saved_networks" android:persistent="false" android:title="@string/wifi_saved_networks_title" android:key="pref_wifi_saved_networks" />
+    <android.support.wearable.preference.WearableDialogPreference android:icon="@drawable/ic_cc_settings_about" android:persistent="false" android:title="@string/wifi_about_automatic_title" android:key="pref_wifi_about" android:dialogTitle="@string/wifi_about_automatic_title" android:dialogMessage="@string/wifi_about_automatic_text" android:positiveButtonText="@null" android:negativeButtonText="@null" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_esimProfile" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/pref_esimProfileNickname" android:key="pref_esimProfileNickname" android:dialogTitle="@string/pref_esimProfileNickname_dialogTitle" android:inputType="text" />
+    <Preference android:persistent="false" android:title="@string/pref_esimStatus" android:key="pref_esimStatus" />
+    <Preference android:persistent="false" android:title="@string/pref_esimProfileCarrierName" android:key="pref_esimProfileCarrierName" />
+    <Preference android:persistent="false" android:title="@string/pref_esimProfileEnable" android:key="pref_esimProfileEnable" />
+    <Preference android:persistent="false" android:title="@string/pref_esimProfileDisable" android:key="pref_esimProfileDisable" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenyDialogPreference android:persistent="false" android:title="@string/pref_esimProfileDelete" android:key="pref_esimProfileDelete" app:dialogMessage="@string/pref_esimProfileDelete_dialogMessage" app:dialogTitle="@string/pref_esimProfileDelete_dialogTitle" />
+    <Preference android:persistent="false" android:title="@string/pref_esimPhoneNumber" android:key="pref_esimPhoneNumber" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_iccid" android:key="pref_simStatusIccId" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_eid" android:key="pref_simStatusEid" />
+</PreferenceScreen>

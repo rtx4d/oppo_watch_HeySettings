@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pairing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center|left|top" android:id="@id/pair_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/rect_side_content_inset" android:minHeight="52.0dip" android:maxLines="3" android:lineSpacingExtra="-2.0sp" style="@style/SetupText" />
+    <TextView android:id="@id/pair_with" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginRight="@dimen/rect_side_content_inset" style="@style/SetupSubText" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/cancel" android:layout_width="@dimen/pair_button_diameter" android:layout_height="@dimen/pair_button_diameter" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginBottom="@dimen/rect_side_content_inset" android:src="@drawable/cancel_circle" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/pair" android:layout_width="@dimen/pair_button_diameter" android:layout_height="@dimen/pair_button_diameter" android:layout_marginRight="@dimen/rect_side_content_inset" android:layout_marginBottom="@dimen/rect_side_content_inset" android:src="@drawable/pair_circle" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Aplikasi kamera</item>
+        <item quantity="one">Aplikasi kamera</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Aplikasi program email</item>
+        <item quantity="one">Aplikasi program email</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Aplikasi telepon</item>
+        <item quantity="one">Aplikasi telepon</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d sertifikat CA paling sedikit</item>
+        <item quantity="one">%d Sertifikat CA paling sedikit</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Sudah mencoba %d kali</item>
+        <item quantity="one">Sudah mencoba %d kali</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apli</item>
+        <item quantity="one">%d apli</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d apli paling sedikit</item>
+        <item quantity="one">%d apli paling sedikit</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Sandi harus terdiri dari minimal %d huruf.</item>
+        <item quantity="one">Sandi harus terdiri dari minimal 1 huruf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Sandi harus terdiri dari minimal %d huruf kecil.</item>
+        <item quantity="one">Sandi harus terdiri dari minimal 1 huruf kecil.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Sandi harus terdiri dari minimal %d karakter bukan huruf.</item>
+        <item quantity="one">Sandi harus terdiri dari minimal 1 karakter bukan huruf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Sandi harus terdiri dari minimal %d digit numerik.</item>
+        <item quantity="one">Sandi harus terdiri dari minimal 1 digit numerik.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Sandi harus terdiri dari minimal %d simbol khusus.</item>
+        <item quantity="one">Sandi harus terdiri dari minimal 1 simbol khusus.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Sandi harus terdiri dari minimal %d huruf besar.</item>
+        <item quantity="one">Sandi harus terdiri dari minimal 1 huruf besar.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Sesuaikan tombol hardware</item>
+        <item quantity="one">Sesuaikan tombol hardware</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Tinggal %1$d langkah untuk menjadi developer.</item>
+        <item quantity="one">Tinggal %1$d langkah untuk menjadi developer.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d upaya lainnya</item>
+        <item quantity="one">%d upaya lainnya</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dj</item>
+        <item quantity="one">%dj</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">%d hari</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d mnt</item>
+        <item quantity="one">%d mnt</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Aktif selama %d jam</item>
+        <item quantity="one">Aktif selama 1 jam</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Aktif selama %d menit</item>
+        <item quantity="one">Aktif selama 1 menit</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">1 menit</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d perangkat terhubung</item>
+        <item quantity="one">%1$d perangkat terhubung</item>
+    </plurals>
+</resources>

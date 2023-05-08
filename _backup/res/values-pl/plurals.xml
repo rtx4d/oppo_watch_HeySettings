@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Aplikacji Aparat</item>
+        <item quantity="one">Aplikacja Aparat</item>
+        <item quantity="few">Aplikacje aparatu</item>
+        <item quantity="many">Aplikacje aparatu</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Klienta poczty e-mail</item>
+        <item quantity="one">Klient poczty e-mail</item>
+        <item quantity="few">Klienty poczty e-mail</item>
+        <item quantity="many">Klienty poczty e-mail</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Aplikacji Telefon</item>
+        <item quantity="one">Aplikacja Telefon</item>
+        <item quantity="few">Aplikacje telefonu</item>
+        <item quantity="many">Aplikacje telefonu</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Certyfikaty CA: co najmniej %d</item>
+        <item quantity="one">Co najmniej %d certyfikat CA</item>
+        <item quantity="few">Co najmniej %d certyfikaty CA</item>
+        <item quantity="many">Co najmniej %d certyfikatów CA</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Próbowano %d razy</item>
+        <item quantity="one">Próbowano %d raz</item>
+        <item quantity="few">%d próby</item>
+        <item quantity="many">%d prób</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">Aplikacje: %d</item>
+        <item quantity="one">%d aplikacja</item>
+        <item quantity="few">%d aplikacje</item>
+        <item quantity="many">%d aplikacji</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Aplikacje: co najmniej %d</item>
+        <item quantity="one">Co najmniej %d aplikacja</item>
+        <item quantity="few">Co najmniej %d aplikacje</item>
+        <item quantity="many">Co najmniej %d aplikacji</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Hasło musi zawierać co najmniej %d litery.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną literę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d litery.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d liter.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Hasło musi zawierać co najmniej %d małej litery.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną małą literę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d małe litery.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d małych liter.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Hasło musi zawierać co najmniej %d znaku niebędącego literą.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jeden znak niebędący literą.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d znaki niebędące literą.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d znaków niebędących literą.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Hasło musi zawierać co najmniej %d cyfry.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną cyfrę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d cyfry.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d cyfr.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Hasło musi zawierać co najmniej %d symbolu specjalnego.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jeden symbol specjalny.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d symbole specjalne.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d symboli specjalnych.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Hasło musi zawierać co najmniej %d wielkiej litery.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną wielką literę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d wielkie litery.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d wielkich liter.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Dostosuj przyciski sprzętowe</item>
+        <item quantity="one">Dostosuj przycisk sprzętowy</item>
+        <item quantity="few">Dostosuj przyciski sprzętowe</item>
+        <item quantity="many">Dostosuj przyciski sprzętowe</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Od zostania programistą dzieli Cię już tylko %1$d kroku.</item>
+        <item quantity="one">Od zostania programistą dzieli Cię już tylko %1$d krok.</item>
+        <item quantity="few">Od zostania programistą dzielą Cię już tylko %1$d kroki.</item>
+        <item quantity="many">Od zostania programistą dzieli Cię już tylko %1$d kroków.</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+        <item quantity="few">%d d</item>
+        <item quantity="many">%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d g</item>
+        <item quantity="one">%d g</item>
+        <item quantity="few">%d g</item>
+        <item quantity="many">%d g</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+        <item quantity="few">%d m</item>
+        <item quantity="many">%d m</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dnia</item>
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godz.</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Włączone przez %d g</item>
+        <item quantity="one">Włączone przez 1 g</item>
+        <item quantity="few">Włączone przez %d g</item>
+        <item quantity="many">Włączone przez %d g</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Włączone przez %d min</item>
+        <item quantity="one">Włączone przez 1 min</item>
+        <item quantity="few">Włączone przez %d min</item>
+        <item quantity="many">Włączone przez %d min</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">1 godz.</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d urządzenia podłączonego</item>
+        <item quantity="one">%1$d urządzenie podłączone</item>
+        <item quantity="few">%1$d urządzenia podłączone</item>
+        <item quantity="many">%1$d urządzeń podłączonych</item>
+    </plurals>
+</resources>

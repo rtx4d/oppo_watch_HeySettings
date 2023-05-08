@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="app_list_disclosure_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:selectable="false" android:key="enterprise_privacy_apps_count_footer" android:summary="@string/enterprise_privacy_apps_count_estimation_info" />
+</PreferenceScreen>

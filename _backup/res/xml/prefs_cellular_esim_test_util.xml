@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_esim_test_util_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/pref_esim_test_util_activation_state" android:key="pref_esim_test_activation_state" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_esim_test_util_text_twinning_state" android:key="pref_esim_test_text_twinning_state" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_esim_test_util_voice_twinning_state" android:key="pref_esim_test_voice_twinning_state" />
+    <PreferenceCategory android:title="@string/pref_esim_available_profile_title" android:key="pref_esim_test_profiles" />
+</PreferenceScreen>

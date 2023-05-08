@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/main_apps" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/ic_cc_settings_about" android:persistent="false" android:title="@string/apps_settings" android:order="10" android:fragment="com.google.android.clockwork.settings.apps.AppInfoSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_ring" android:persistent="false" android:title="@string/app_notifications" android:key="pref_appNotifications" android:order="20">
+        <intent android:action="com.google.android.clockwork.settings.APP_NOTIFICATIONS" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_cc_settings_permissions" android:persistent="false" android:title="@string/app_permissions" android:order="30" android:fragment="com.google.android.clockwork.settings.apps.AppPermissionsSettingsFragment" />
+    <PreferenceScreen android:icon="@drawable/ic_cc_preview" android:persistent="false" android:title="@string/pref_cardPreviews" android:key="pref_cardPreviews" android:order="40">
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_previewMode_labelHigh" android:key="pref_cardPreviews_high" android:summary="@string/pref_previewMode_descHigh" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_previewMode_labelNormal" android:key="pref_cardPreviews_normal" android:summary="@string/pref_previewMode_descNormal" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_previewMode_labelOff" android:key="pref_cardPreviews_low" android:summary="@string/pref_previewMode_descOff" android:widgetLayout="@layout/preference_widget_radiobutton" />
+    </PreferenceScreen>
+    <SwitchPreference android:persistent="false" android:title="@string/pref_muteWhenOffBody" android:key="pref_muteWhenOffBody" android:order="50" />
+    <Preference android:icon="@drawable/ic_cc_settings_dnd" android:persistent="false" android:title="@string/pref_dndOptions" android:key="pref_dndOptions" android:order="60" android:fragment="com.google.android.clockwork.settings.sound.DoNotDisturbSettingsFragment" />
+    <PreferenceScreen android:icon="@drawable/heytap_vibration_pattern" android:persistent="false" android:title="@string/pref_vibrationLevel" android:key="pref_vibrationLevel" android:order="70">
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_vibrationLevel_labelNormal" android:key="pref_vibrationLevel_normal" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_vibrationLevel_labelLong" android:key="pref_vibrationLevel_long" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_vibrationLevel_labelDouble" android:key="pref_vibrationLevel_double" android:widgetLayout="@layout/preference_widget_radiobutton" />
+    </PreferenceScreen>
+    <Preference android:icon="@drawable/ic_cc_settings_vip_contacts" android:persistent="false" android:title="@string/pref_vip_contacts" android:key="pref_vip_contacts" android:order="80">
+        <intent android:targetPackage="com.google.android.wearable.app" android:action="com.google.android.clockwork.home.contacts.ACTION_VIP_CONTACTS_SETTINGS" />
+    </Preference>
+</PreferenceScreen>

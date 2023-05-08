@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Appareil photo</item>
+        <item quantity="one">Appareil photo</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Client de messagerie</item>
+        <item quantity="one">Client de messagerie</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Téléphone</item>
+        <item quantity="one">Téléphone</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d certificats CA au moins</item>
+        <item quantity="one">%d certificat CA au moins</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d tentatives</item>
+        <item quantity="one">%d tentative</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d applis</item>
+        <item quantity="one">%d appli</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d applis au moins</item>
+        <item quantity="one">%d appli au moins</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Le mot de passe doit comporter au moins %d lettres.</item>
+        <item quantity="one">Le mot de passe doit comporter au moins %d lettre.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Le mot de passe doit comporter au moins %d lettres minuscules.</item>
+        <item quantity="one">Le mot de passe doit comporter au moins %d lettre minuscule.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Le mot de passe doit comporter au moins %d caractères non alphabétiques.</item>
+        <item quantity="one">Le mot de passe doit comporter au moins %d caractère non alphabétique.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Le mot de passe doit comporter au moins %d chiffres.</item>
+        <item quantity="one">Le mot de passe doit comporter au moins %d chiffre.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Le mot de passe doit comporter au moins %d caractères spéciaux.</item>
+        <item quantity="one">Le mot de passe doit comporter au moins %d caractère spécial.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Le mot de passe doit comporter au moins %d lettres majuscules.</item>
+        <item quantity="one">Le mot de passe doit comporter au moins %d lettre majuscule.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Personnaliser boutons matériels</item>
+        <item quantity="one">Personnaliser bouton matériel</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Plus que %1$d étapes pour devenir développeur</item>
+        <item quantity="one">Plus que %1$d étape pour devenir développeur</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d autres tentatives</item>
+        <item quantity="one">%d autre tentative</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d j</item>
+        <item quantity="one">%d j</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">%d jour</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Activée pendant %d h</item>
+        <item quantity="one">Activée pendant %d h</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Activée pendant %d min</item>
+        <item quantity="one">Activée pendant %d min</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d appareils connectés</item>
+        <item quantity="one">%1$d appareil connecté</item>
+    </plurals>
+</resources>

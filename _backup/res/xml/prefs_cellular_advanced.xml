@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/advanced_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/enhanced_4g_lte_mode" android:key="pref_enhanced_4g_lte" />
+    <com.google.android.clockwork.settings.cellular.PreferredNetworkPreference android:key="pref_preferredNetwork" />
+    <com.google.android.clockwork.settings.cellular.ApnSettingsPreference android:key="pref_accessPointNames" />
+    <com.google.android.clockwork.settings.cellular.NetworkOperatorsPreference android:key="pref_networkOperators" />
+    <Preference android:icon="@drawable/ic_settings_sharingaccounts" android:persistent="false" android:title="@string/twinning_settings_action" android:key="pref_twinning" android:fragment="com.google.android.clockwork.settings.cellular.TwinningFragment" />
+    <Preference android:icon="@drawable/ic_settings_sharingaccounts" android:persistent="false" android:title="@string/accounts" android:key="pref_accounts">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.cellular.PhoneAccountsActivity" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_sim_card" android:persistent="false" android:title="@string/pref_esim_reset_option" android:key="pref_erase_esim">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.cellular.ResetEsimActivity" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_sim_card" android:persistent="false" android:title="@string/pref_esim_test_util_title" android:key="pref_esim_test_util">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.cellular.EsimTestUtilActivity" />
+    </Preference>
+    <EditTextPreference android:icon="@drawable/ic_cc_empty" android:persistent="false" android:singleLine="true" android:title="@string/pref_smdp_address_title" android:key="pref_smdp_address" android:dialogTitle="@string/pref_smdp_address_title" android:inputType="text" />
+</PreferenceScreen>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">कैमरा ऐप्लिकेशन</item>
+        <item quantity="one">कैमरा ऐप्लिकेशन</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">ईमेल क्लाइंट ऐप्लिकेशन</item>
+        <item quantity="one">ईमेल क्लाइंट ऐप्लिकेशन</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">फ़ोन ऐप्लिकेशन</item>
+        <item quantity="one">फ़ोन ऐप्लिकेशन</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">कम से कम %d CA प्रमाणपत्र</item>
+        <item quantity="one">कम से कम %d CA प्रमाणपत्र</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d बार प्रयास किया गया</item>
+        <item quantity="one">%d बार प्रयास किया गया</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d ऐप</item>
+        <item quantity="one">%d ऐप</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">कम से कम %d ऐप</item>
+        <item quantity="one">कम से कम %d ऐप</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">पासवर्ड में कम से कम %d अक्षर होने चाहिए.</item>
+        <item quantity="one">पासवर्ड में कम से कम %d अक्षर होने चाहिए.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">पासवर्ड में कम से कम %d छोटा अक्षर होने चाहिए.</item>
+        <item quantity="one">पासवर्ड में कम से कम %d छोटा अक्षर होने चाहिए.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">पासवर्ड में कम से कम %d वर्ण ऐसे होने चाहिए जो अक्षर ना हों.</item>
+        <item quantity="one">पासवर्ड में कम से कम %d वर्ण ऐसे होने चाहिए जो अक्षर ना हों.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">पासवर्ड में कम से कम %d संख्‍यात्‍मक अंक होने चाहिए.</item>
+        <item quantity="one">पासवर्ड में कम से कम %d संख्‍यात्‍मक अंक होने चाहिए.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">पासवर्ड में कम से कम %d विशेष प्रतीक होने चाहिए.</item>
+        <item quantity="one">पासवर्ड में कम से कम %d विशेष प्रतीक होने चाहिए.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">पासवर्ड में कम से कम %d बड़े अक्षर होने चाहिए.</item>
+        <item quantity="one">पासवर्ड में कम से कम %d बड़े अक्षर होने चाहिए.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">हार्डवेयर बटन कस्टमाइज़ करें</item>
+        <item quantity="one">हार्डवेयर बटन कस्टमाइज़ करें</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">अब आप डेवलपर बननेे से %1$d चरण दूर हैं।</item>
+        <item quantity="one">अब आप डेवलपर बननेे से %1$d चरण दूर हैं।</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d ज़्यादा प्रयास</item>
+        <item quantity="one">%d ज़्यादा प्रयास</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d दिन</item>
+        <item quantity="one">%d दिन</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d घंटे</item>
+        <item quantity="one">%d घंटा</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d मि.</item>
+        <item quantity="one">%d मि.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d दिन</item>
+        <item quantity="one">%d दिन</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d घंटे</item>
+        <item quantity="one">%d घंटे</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d मि.</item>
+        <item quantity="one">%d मि.</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">%d घंटे के लिए चालू</item>
+        <item quantity="one">%d घंटे के लिए चालू</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">%d मिनट के लिए चालू</item>
+        <item quantity="one">%d मिनट के लिए चालू</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d घंटे</item>
+        <item quantity="one">%d घंटे</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d मिनट</item>
+        <item quantity="one">%d मिनट</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d डिवाइस जुड़े हैं</item>
+        <item quantity="one">%1$d डिवाइस जुड़े हैं</item>
+    </plurals>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/development_settings_title" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:persistent="false" android:title="@string/pref_stayOnWhilePluggedIn" android:key="pref_stayOnWhilePluggedIn" android:order="10" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_btSnoopLog" android:key="pref_btSnoopLog" android:order="20" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_connectivityVibrate" android:key="pref_connectivityVibrate" android:order="30" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_smartIlluminate" android:key="pref_smartIlluminate" android:order="40" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/pref_adbDebugging" android:key="pref_adbDebugging" android:order="50" app:dialogMessage="@string/are_you_sure" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_debugOverBluetooth" android:key="pref_debugOverBluetooth" android:order="60" android:dependency="pref_adbDebugging" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_debugOverWifi" android:key="pref_debugOverWifi" android:order="70" android:dependency="pref_adbDebugging" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/heytap_pref_oem" android:key="heytap_pref_oem" android:order="75" app:dialogMessage="@string/heytap_oem_warning_message" app:dialogTitle="@string/heytap_oem_warning_title" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenyDialogPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/pref_clearAdbKeys" android:key="pref_clearAdbKeys" android:order="80" app:dialogMessage="@string/are_you_sure" />
+    <Preference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/pref_wearDeveloperOptions" android:key="pref_wearDeveloperOptions" android:order="90" />
+    <SwitchPreference android:persistent="false" android:title="@string/allow_mock_location" android:key="pref_allowMockLocations" android:order="110" />
+    <ListPreference android:entries="@array/select_logd_size_titles" android:title="@string/select_logd_size_title" android:key="pref_logdSize" android:order="120" android:dialogTitle="@string/select_logd_size_dialog_title" android:entryValues="@array/select_logd_size_values" />
+    <ListPreference android:entries="@array/select_logpersist_titles" android:title="@string/pref_logPersist" android:key="pref_logPersist" android:order="130" android:dialogTitle="@string/select_logpersist_dialog_title" android:entryValues="@array/select_logpersist_values" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_debugLayout" android:key="pref_debugLayout" android:order="140" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_forceRtlLayout" android:key="pref_forceRtlLayout" android:order="150" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_debugOverdraw" android:key="pref_debugOverdraw" android:order="160" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_debugTiming" android:key="pref_debugTiming" android:order="170" />
+    <ListPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:entries="@array/window_animation_scale_entries" android:title="@string/window_animation_scale_title" android:key="window_animation_scale" android:summary="%s" android:order="180" android:entryValues="@array/window_animation_scale_values" />
+    <ListPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:entries="@array/transition_animation_scale_entries" android:title="@string/transition_animation_scale_title" android:key="transition_animation_scale" android:summary="%s" android:order="190" android:entryValues="@array/transition_animation_scale_values" />
+    <ListPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:entries="@array/animator_duration_scale_entries" android:title="@string/animator_duration_scale_title" android:key="animator_duration_scale" android:summary="%s" android:order="200" android:entryValues="@array/animator_duration_scale_values" />
+    <SwitchPreference android:persistent="false" android:title="@string/pointer_location" android:key="pref_pointerLocation" android:order="210" />
+    <SwitchPreference android:persistent="false" android:title="@string/show_touches" android:key="pref_showTouches" android:order="220" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_bugReport" android:key="pref_bugReport" android:order="230" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_enableWifiWhenCharging" android:key="pref_enableWifiWhenCharging" android:order="240" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_wifiLogging" android:key="pref_wifiLogging" android:order="250" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_cellularBatterySaver" android:key="pref_cellularBatterySaver" android:order="260" />
+    <PreferenceScreen android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/pref_powerOptimizations" android:key="pref_powerOptimizations" android:order="270" />
+    <ListPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:entries="@array/pref_dpi_entries" android:title="@string/pref_dpiSettings" android:key="pref_dpiSettings" android:order="280" android:entryValues="@array/pref_dpi_values" />
+</PreferenceScreen>

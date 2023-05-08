@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/main_personal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.clockwork.settings.personal.HeytapLanguagePreference android:order="5" />
+    <Preference android:icon="@drawable/ic_cc_settings_account" android:persistent="false" android:title="@string/pref_accounts" android:key="pref_accounts" android:order="10" android:fragment="com.google.android.clockwork.settings.personal.AccountSettingsFragment" />
+    <Preference android:persistent="false" android:key="pref_buttons" android:order="30" android:fragment="com.google.android.clockwork.settings.personal.buttons.ButtonSettingsFragment" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_smartReply" android:key="pref_smartReply" android:order="40" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_hotwordDetectionLe" android:key="pref_hotwordDetection" android:order="50" />
+    <Preference android:icon="@drawable/ic_cc_settings_keyboard" android:persistent="false" android:title="@string/pref_inputMethods" android:key="pref_inputMethods" android:order="60" android:fragment="com.google.android.clockwork.settings.input.VirtualKeyboardFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_assistant_access" android:persistent="false" android:title="@string/pref_assistantAccess" android:key="pref_assistantAccess" android:order="70" android:fragment="com.google.android.clockwork.settings.personal.AssistantAccessSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_yolo" android:persistent="false" android:title="@string/pref_yolo" android:key="pref_yolo" android:order="80" />
+    <Preference android:persistent="false" android:key="pref_heytap_fit" android:order="85" />
+    <Preference android:icon="@drawable/ic_cc_settings_running" android:persistent="false" android:title="@string/pref_exerciseDetection" android:key="pref_exerciseDetection" android:order="90" android:fragment="com.google.android.clockwork.settings.personal.fitness.ExerciseDetectionSettingsFragment" />
+    <SwitchPreference android:persistent="false" android:title="@string/heytap_enable_alternate_launcher" android:key="pref_alternateLauncher" android:order="100" />
+    <com.google.android.clockwork.settings.personal.VoiceAssistantPreference android:key="pref_voiceAssistant" android:order="110" />
+    <Preference android:icon="@drawable/ic_cc_settings_deviceadmin" android:persistent="false" android:title="@string/pref_deviceAdministration" android:key="pref_deviceAdministration" android:order="120" android:fragment="com.google.android.clockwork.settings.personal.device_administration.ActiveDeviceAdministrationSettingsFragment" />
+</PreferenceScreen>

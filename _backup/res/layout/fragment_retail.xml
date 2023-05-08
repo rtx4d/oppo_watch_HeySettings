@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/retail_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/button_image" android:background="@drawable/action_bg" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true" />
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/enter_demo_mode" android:layout_below="@id/button_image" style="@style/SetupText" />
+</RelativeLayout>

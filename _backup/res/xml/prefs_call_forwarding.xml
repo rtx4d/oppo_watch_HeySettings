@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="pref_callForwarding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/action_accept" android:persistent="false" android:title="@string/pref_callForwarding_turnOn" android:key="pref_turnOn" />
+    <Preference android:icon="@drawable/action_no_thanks" android:persistent="false" android:title="@string/pref_callForwarding_turnOff" android:key="pref_turnOff" />
+    <Preference android:icon="@drawable/action_open_on_phone" android:persistent="false" android:title="@string/generic_help" android:key="pref_help" />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:id="@id/ws_action_drawer_guide_end" app:layout_constraintGuide_percent="@dimen/ws_action_drawer_title_end" style="@style/WsVerticalGuideStyle" />
+    <androidx.constraintlayout.widget.Guideline android:id="@id/ws_action_drawer_guide_start" app:layout_constraintGuide_percent="@dimen/ws_action_drawer_title_start" style="@style/WsVerticalGuideStyle" />
+    <TextView android:gravity="center" android:id="@id/ws_action_drawer_title" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/ws_action_drawer_guide_end" app:layout_constraintStart_toStartOf="@id/ws_action_drawer_guide_start" style="@style/WsWearableActionDrawerTitleText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

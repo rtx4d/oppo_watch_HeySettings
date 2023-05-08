@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/icon_background_shape" />
+    <item android:gravity="center" android:id="@id/icon" android:tint="@color/icon_color" android:height="@dimen/settings_list_icon_size" android:width="@dimen/settings_list_icon_size" android:drawable="@android:color/transparent" android:viewportWidth="24.0" android:viewportHeight="24.0" />
+</layer-list>

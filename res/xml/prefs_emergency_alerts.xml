@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_emergencyNotifications"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/emergency_alerts_extreme_threats" android:key="pref_extremeThreats" />
+    <SwitchPreference android:persistent="false" android:title="@string/emergency_alerts_severe_threats" android:key="pref_severeThreats" />
+    <SwitchPreference android:persistent="false" android:title="@string/emergency_alerts_amber_alerts" android:key="pref_amberAlerts" />
+    <SwitchPreference android:persistent="false" android:title="@string/emergency_alerts_etws_test_alerts" android:key="pref_etwsTestAlerts" />
+    <SwitchPreference android:persistent="false" android:title="@string/emergency_alerts_cmas_test_alerts" android:key="pref_cmasTestAlerts" />
+    <SwitchPreference android:persistent="false" android:title="@string/emergency_alerts_alert_reminder" android:key="pref_alertReminder" />
+    <SwitchPreference android:persistent="false" android:title="@string/emergency_alerts_vibrate" android:key="pref_alertVibrate" />
+    <ListPreference android:icon="@drawable/ic_settings_emergency_notifications" android:persistent="false" android:entries="@array/emergency_alerts_duration_choices" android:title="@string/emergency_alerts_duration" android:key="pref_alertSoundDuration" android:summary="%s" android:entryValues="@array/emergency_alerts_duration_values" />
+</PreferenceScreen>

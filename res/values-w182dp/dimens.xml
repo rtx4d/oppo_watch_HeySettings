@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circ_side_button_inset">36.0dip</dimen>
+    <dimen name="circ_side_content_inset_wof_left">36.0dip</dimen>
+    <dimen name="circ_side_content_inset_wof_right">22.0dip</dimen>
+    <dimen name="date_picker_text_size">50.0sp</dimen>
+    <dimen name="locale_font_size">16.0dip</dimen>
+    <dimen name="onboarding_device_name_margin_top">114.0dip</dimen>
+    <dimen name="onboarding_large_image_margin_bottom">36.0dip</dimen>
+    <dimen name="onboarding_large_image_margin_bottom_round">36.0dip</dimen>
+    <dimen name="onboarding_margin_horizontal">16.0dip</dimen>
+    <dimen name="onboarding_margin_horizontal_round">27.0dip</dimen>
+    <dimen name="onboarding_pagination_margin_bottom">10.0dip</dimen>
+    <dimen name="onboarding_swipe_left_margin_bottom">10.0dip</dimen>
+    <dimen name="onboarding_swipe_left_margin_bottom_round">10.0dip</dimen>
+    <dimen name="onboarding_text_margin_top">16.0dip</dimen>
+    <dimen name="onboarding_text_margin_top_round">32.0dip</dimen>
+    <dimen name="onboarding_text_size">16.0dip</dimen>
+    <dimen name="onboarding_text_size_round">16.0dip</dimen>
+    <dimen name="onboarding_text_width_round">160.0dip</dimen>
+    <dimen name="oobe_welcom_bottom_watch_strip_horizontal_adjustment">122.0dip</dimen>
+    <dimen name="oobe_welcome_overlay_height">54.0dip</dimen>
+    <dimen name="oobe_welcome_swipe_text_bottom_margin_round">34.0dip</dimen>
+    <dimen name="oobe_welcome_watch_overlay_size">22.0dip</dimen>
+    <dimen name="oobe_welcome_watch_size">64.0dip</dimen>
+    <dimen name="oobe_welcome_welcome_text_top_margin_round">40.0dip</dimen>
+    <dimen name="time_picker_text_size">50.0sp</dimen>
+    <dimen name="onboarding_pagination_margin_bottom_round">10.0dip</dimen>
+    <dimen name="oobe_welcome_overlay_height_round">73.0dip</dimen>
+</resources>

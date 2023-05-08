@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:id="@id/ws_nav_drawer_text_guide" app:layout_constraintGuide_percent="@dimen/ws_nav_drawer_text_guide" style="@style/WsHorizontalGuideStyle" />
+    <TextView android:textSize="@dimen/ws_nav_drawer_text_size" android:textColor="?android:textColorPrimary" android:gravity="center" android:id="@id/ws_nav_drawer_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ws_nav_drawer_single_page_half_icon_size" android:maxLines="2" android:fontFamily="sans-serif-condensed" app:layout_constraintTop_toBottomOf="@id/ws_nav_drawer_text_guide" />
+</merge>

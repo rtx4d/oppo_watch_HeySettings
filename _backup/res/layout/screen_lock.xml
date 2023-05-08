@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.Guideline android:orientation="horizontal" android:id="@id/top_horizontal_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_min" />
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/start_vertical_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_min" />
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/end_vertical_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_max" />
+    <android.support.constraint.Guideline android:orientation="horizontal" android:id="@id/bottom_horizontal_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_max" />
+    <com.android.internal.widget.LockPatternView android:id="@id/lockPatternView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/bottom_horizontal_guideline" app:layout_constraintEnd_toEndOf="@id/end_vertical_guideline" app:layout_constraintStart_toStartOf="@id/start_vertical_guideline" app:layout_constraintTop_toTopOf="@id/top_horizontal_guideline" />
+</android.support.constraint.ConstraintLayout>

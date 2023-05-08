@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/icon_background_shape" />
+    <item android:gravity="center">
+        <vector android:tint="@color/icon_color" android:height="@dimen/settings_list_icon_size" android:width="@dimen/settings_list_icon_size" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:fillColor="@android:color/white" android:pathData="M2.969,19.9h2.881v2.881h-2.881z" />
+            <path android:fillColor="@android:color/white" android:pathData="M8.01,19.9h2.881v2.881h-2.881z" />
+            <path android:fillColor="@android:color/white" android:pathData="M13.052,19.9h2.881v2.881h-2.881z" />
+            <path android:fillColor="@android:color/white" android:pathData="M18.093,19.9h2.881v2.881h-2.881z" />
+            <path android:fillColor="@android:color/white" android:pathData="M3.007,18l17.993,0l0,-18z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+            <path android:fillColor="@android:color/white" android:pathData="M3.007,18l12.993,0l0,-12.969z" />
+        </vector>
+    </item>
+</layer-list>

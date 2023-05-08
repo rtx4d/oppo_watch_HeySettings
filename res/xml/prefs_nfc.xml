@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_nfc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:persistent="false" android:title="@string/pref_nfc" android:key="pref_nfc" />
+    <com.google.android.clockwork.settings.connectivity.nfc.TapAndPayPreference android:icon="@drawable/ic_cc_settings_tap_and_pay" android:persistent="false" android:title="@string/pref_tap_and_pay_title" android:key="pref_tap_and_pay" android:positiveButtonText="@null" android:negativeButtonText="@null" />
+</PreferenceScreen>

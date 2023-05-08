@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_activity_title" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/toggle_data_limit_action" android:key="pref_dataUsageLimitEnable" app:dialogMessage="@string/data_usage_limit_dialog_subtitle" app:dialogTitle="@string/data_usage_limit_dialog_title" />
+    <com.google.android.clockwork.settings.cellular.DataLimitPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/set_data_limit_action" android:key="pref_dataUsageLimitValue" android:dependency="pref_dataUsageLimitEnable" android:dialogTitle="@string/data_limit_chooser_title" android:negativeButtonText="@null" />
+    <SwitchPreference android:persistent="false" android:title="@string/toggle_data_connectivity_action" android:key="pref_dataConnectivityEnable" />
+    <ListPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/data_usage_activity_title" android:key="pref_dataUsageCycleDay" android:dialogTitle="@string/cycle_day_chooser_title" android:negativeButtonText="@null" />
+    <com.google.android.clockwork.settings.cellular.DataLimitPreference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/set_warning_level_action" android:key="pref_dataUsageWarningLevel" android:dialogTitle="@string/data_limit_chooser_warning_level_title" android:negativeButtonText="@null" />
+    <Preference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/show_app_usage_action" android:key="pref_dataUsageAppUsage" />
+</PreferenceScreen>

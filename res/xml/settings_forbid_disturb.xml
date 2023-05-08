@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/heytap_forbid_disturb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/heytap_forbid_disturb_auto_open" android:key="heytap_auto_open" android:summary="@string/heytap_forbid_disturb_open_tips" />
+    <Preference android:key="start_prerence" />
+    <Preference android:key="end_prerence" />
+</PreferenceScreen>

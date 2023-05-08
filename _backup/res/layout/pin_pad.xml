@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/start_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/pin_pad_start_percent" />
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/end_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/pin_pad_end_percent" />
+    <TableLayout android:gravity="bottom|center" android:id="@id/numbers_view" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/pin_pad_margin_bottom" android:stretchColumns="*" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/end_guideline" app:layout_constraintStart_toStartOf="@id/start_guideline" app:layout_constraintTop_toTopOf="parent">
+        <TableRow android:layout_weight="1.0">
+            <TextView android:id="@id/button_1" style="@style/PinPadButton" />
+            <TextView android:id="@id/button_2" style="@style/PinPadButton" />
+            <TextView android:id="@id/button_3" style="@style/PinPadButton" />
+        </TableRow>
+        <TableRow android:layout_weight="1.0">
+            <TextView android:id="@id/button_4" style="@style/PinPadButton" />
+            <TextView android:id="@id/button_5" style="@style/PinPadButton" />
+            <TextView android:id="@id/button_6" style="@style/PinPadButton" />
+        </TableRow>
+        <TableRow android:layout_weight="1.0">
+            <TextView android:id="@id/button_7" style="@style/PinPadButton" />
+            <TextView android:id="@id/button_8" style="@style/PinPadButton" />
+            <TextView android:id="@id/button_9" style="@style/PinPadButton" />
+        </TableRow>
+        <TableRow android:layout_weight="1.0">
+            <ImageView android:id="@id/button_del" android:src="@drawable/ic_backspace_white" style="@style/PinPadButton.Special" />
+            <TextView android:id="@id/button_0" style="@style/PinPadButton" />
+            <ImageView android:id="@id/button_enter" android:src="@drawable/ic_check_white" style="@style/PinPadButton.Special" />
+        </TableRow>
+    </TableLayout>
+</merge>

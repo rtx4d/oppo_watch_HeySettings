@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Camera-apps</item>
+        <item quantity="one">Camera-app</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">E-mailclient-apps</item>
+        <item quantity="one">E-mailclient-app</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Telefoon-apps</item>
+        <item quantity="one">Telefoon-app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Minimaal %d CA-certificaten</item>
+        <item quantity="one">%d CA-certificaat op zijn minst</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d keer geprobeerd</item>
+        <item quantity="one">%d keer geprobeerd</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Minstens %d apps</item>
+        <item quantity="one">Minstens %d app</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Wachtwoord moet ten minste %d letters bevatten.</item>
+        <item quantity="one">Wachtwoord moet ten minste één letter bevatten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Wachtwoord moet ten minste %d kleine letters bevatten.</item>
+        <item quantity="one">Wachtwoord moet ten minste één kleine letter bevatten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Wachtwoord moet ten minste %d andere tekens dan letters bevatten.</item>
+        <item quantity="one">Wachtwoord moet ten minste één ander teken dan letters bevatten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Wachtwoord moet ten minste %d cijfers bevatten.</item>
+        <item quantity="one">Wachtwoord moet ten minste één cijfer bevatten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Wachtwoord moet ten minste %d speciale symbolen bevatten.</item>
+        <item quantity="one">Wachtwoord moet ten minste één speciaal symbool bevatten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Wachtwoord moet ten minste %d hoofdletters bevatten.</item>
+        <item quantity="one">Wachtwoord moet ten minste één hoofdletter bevatten.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Hardwareknoppen aanpassen</item>
+        <item quantity="one">Hardwareknop aanpassen</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Je moet nog %1$d stappen uitvoeren om ontwikkelaar te worden.</item>
+        <item quantity="one">Je moet nog %1$d stap uitvoeren om ontwikkelaar te worden.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">Nog %d pogingen</item>
+        <item quantity="one">Nog %d poging</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%du</item>
+        <item quantity="one">%du</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Aan gedurende %d uur</item>
+        <item quantity="one">Aan gedurende 1 uur</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Aan gedurende %d minuten</item>
+        <item quantity="one">Aan gedurende 1 minuut</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d apparaten verbonden</item>
+        <item quantity="one">%1$d apparaat verbonden</item>
+    </plurals>
+</resources>

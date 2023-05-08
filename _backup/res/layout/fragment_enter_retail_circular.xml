@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pairing" android:paddingTop="@dimen/circ_top_inset" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/circ_side_content_inset" android:layout_marginRight="@dimen/circ_side_content_inset" android:text="@string/enter_demo_mode" android:layout_weight="1.0" android:lineSpacingExtra="-2.0sp" style="@style/SetupRetailText" />
+    <RelativeLayout android:id="@id/buttons_layout" android:layout_width="fill_parent" android:layout_height="@dimen/pair_button_container_height">
+        <ImageView android:id="@id/cancel" android:layout_width="@dimen/pair_button_diameter" android:layout_height="@dimen/pair_button_diameter" android:layout_marginLeft="@dimen/circ_side_button_inset" android:layout_marginBottom="@dimen/circ_bottom_inset" android:src="@drawable/cancel_circle" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/enter_retail" android:layout_width="@dimen/pair_button_diameter" android:layout_height="@dimen/pair_button_diameter" android:layout_marginRight="@dimen/circ_side_button_inset" android:layout_marginBottom="@dimen/circ_bottom_inset" android:src="@drawable/lock_circle" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="hey_auto_size_text_sizes_code">
+        <item>19</item>
+        <item>14</item>
+        <item>12</item>
+        <item>9</item>
+    </integer-array>
+</resources>

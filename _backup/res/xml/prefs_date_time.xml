@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_dateTime" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:persistent="false" android:title="@string/pref_autoDateTime" android:key="pref_autoDateTime" android:order="10" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_autoTimeZone" android:key="pref_autoTimeZone" android:order="20" />
+    <com.google.android.clockwork.settings.system.DatePickerPreference android:persistent="false" android:title="@string/pref_manualDate" android:key="pref_manualDate" android:order="30" />
+    <com.google.android.clockwork.settings.system.TimePickerPreference android:persistent="false" android:title="@string/pref_manualTime" android:key="pref_manualTime" android:order="40" />
+    <ListPreference android:persistent="false" android:title="@string/pref_manualTimeZone" android:key="pref_manualTimeZone" android:order="50" android:dialogTitle="@string/pref_manualTimeZone_dialogTitle" android:negativeButtonText="@null" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_hourFormat" android:key="pref_hourFormat" android:order="60" />
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WearText.Body1" parent="@style/WearText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="WearText.Body2" parent="@style/WearText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="WearText.Button" parent="@style/WearText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="WearText.Caption" parent="@style/WearText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="WearText.Display1" parent="@style/WearText">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="WearText.Display2" parent="@style/WearText">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="WearText.Display3" parent="@style/WearText">
+        <item name="android:textSize">50.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="WearText.Display4" parent="@style/WearText">
+        <item name="android:textSize">80.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="WearText.Headline" parent="@style/WearText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="WearText.Subhead" parent="@style/WearText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="WearText.Title" parent="@style/WearText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

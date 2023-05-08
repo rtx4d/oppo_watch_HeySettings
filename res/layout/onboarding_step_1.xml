@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.WearableFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/onboarding_text_size" android:textColor="@color/onboarding_text_color" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/onboarding_margin_horizontal" android:layout_marginTop="@dimen/onboarding_text_margin_top" android:layout_marginRight="@dimen/onboarding_margin_horizontal" android:text="@string/onboarding_step_1_text" android:fontFamily="sans-serif-condensed" app:layout_gravityRound="center_horizontal" app:layout_marginTopRound="@dimen/onboarding_text_margin_top_round" app:layout_widthRound="@dimen/onboarding_text_width_round" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/onboarding_large_image_margin_bottom" app:layout_marginBottomRound="@dimen/onboarding_large_image_margin_bottom_round">
+        <ImageView android:id="@id/watch_image" android:layout_width="@dimen/onboarding_large_icon_size" android:layout_height="@dimen/onboarding_large_icon_size" android:src="@drawable/ic_ob_watch_square" />
+        <ImageView android:layout_width="@dimen/onboarding_small_icon_size" android:layout_height="@dimen/onboarding_small_icon_size" android:src="@drawable/ic_ob_connection_dot" />
+        <ImageView android:id="@id/phone_image" android:layout_width="@dimen/onboarding_large_icon_size" android:layout_height="@dimen/onboarding_large_icon_size" android:src="@drawable/ic_ob_pbone" />
+    </LinearLayout>
+</android.support.wearable.view.WearableFrameLayout>

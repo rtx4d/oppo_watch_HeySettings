@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/main_connectivity" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/ic_cc_settings_bluetooth" android:persistent="false" android:title="@string/pref_bluetooth" android:key="pref_bluetooth" android:order="10" android:fragment="com.google.android.clockwork.settings.connectivity.BluetoothGeneralSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_wifi_4" android:persistent="false" android:title="@string/pref_wifi_old" android:key="pref_wifi_old" android:order="20">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.wifi.WifiSettingsActivity" />
+    </Preference>
+    <PreferenceScreen android:icon="@drawable/ic_cc_settings_wifi_4" android:persistent="false" android:title="@string/pref_wifi" android:key="pref_wifi" android:order="30" android:fragment="com.google.android.clockwork.settings.connectivity.wifi.WifiSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_cellular_4" android:persistent="false" android:title="@string/pref_cellular" android:key="pref_cellular" android:order="40">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.connectivity.cellular.CellularSettingsActivity" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_numbersync_on" android:persistent="false" android:key="pref_twinning" android:order="50" />
+    <PreferenceScreen android:icon="@drawable/ic_cc_settings_nfc" android:persistent="false" android:title="@string/pref_nfc" android:key="pref_nfc" android:order="60" android:fragment="com.google.android.clockwork.settings.connectivity.nfc.NfcSettingsFragment" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_airplaneMode" android:key="pref_airplaneMode" android:order="70" />
+    <Preference android:icon="@drawable/heytap_location_icon" android:persistent="false" android:title="@string/pref_location" android:key="heytap_pref_location" android:order="75" android:fragment="com.google.android.clockwork.settings.heytap.location.HeytapLocaleSettingsFragment" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_location" android:key="pref_locationToggle" android:order="80" />
+</PreferenceScreen>

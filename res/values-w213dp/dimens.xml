@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboarding_battery_level_margin_bottom">10.0dip</dimen>
+    <dimen name="onboarding_device_name_margin_top">122.0dip</dimen>
+    <dimen name="onboarding_device_name_text_size">18.0dip</dimen>
+    <dimen name="onboarding_margin_horizontal">27.0dip</dimen>
+    <dimen name="onboarding_swipe_left_margin_bottom">12.0dip</dimen>
+    <dimen name="onboarding_swipe_left_margin_bottom_round">12.0dip</dimen>
+    <dimen name="onboarding_text_margin_top">24.0dip</dimen>
+    <dimen name="onboarding_text_margin_top_round">32.0dip</dimen>
+    <dimen name="onboarding_text_size_round">18.0dip</dimen>
+    <dimen name="oobe_welcom_bottom_watch_strip_horizontal_adjustment">133.0dip</dimen>
+    <dimen name="oobe_welcome_overlay_height">62.0dip</dimen>
+    <dimen name="oobe_welcome_swipe_text_bottom_margin">14.0dip</dimen>
+    <dimen name="oobe_welcome_watch_overlay_size">17.0dip</dimen>
+    <dimen name="oobe_welcome_welcome_text_size">24.0dip</dimen>
+    <dimen name="oobe_welcome_welcome_text_top_margin">30.0dip</dimen>
+    <dimen name="oobe_welcome_welcome_text_width">182.0dip</dimen>
+</resources>

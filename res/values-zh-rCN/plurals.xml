@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">相机应用</item>
+        <item quantity="one">相机应用</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">电子邮件客户端应用</item>
+        <item quantity="one">电子邮件客户端应用</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">电话应用</item>
+        <item quantity="one">电话应用</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">至少 %d 个 CA 证书</item>
+        <item quantity="one">至少 %d 个 CA 证书</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">已尝试 %d 次</item>
+        <item quantity="one">已尝试 %d 次</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d 个应用</item>
+        <item quantity="one">%d 个应用</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">至少 %d 个应用</item>
+        <item quantity="one">至少 %d 个应用</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">密码必须包含至少 %d 个字母。</item>
+        <item quantity="one">密码必须包含至少 1 个字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">密码必须包含至少 %d 个小写字母。</item>
+        <item quantity="one">密码必须包含至少 1 个小写字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">密码必须包含至少 %d 个非字母字符。</item>
+        <item quantity="one">密码必须包含至少 1 个非字母字符。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">密码必须包含至少 %d 个数字。</item>
+        <item quantity="one">密码必须包含至少 1 个数字。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">密码必须包含至少 %d 个特殊符号。</item>
+        <item quantity="one">密码必须包含至少 1 个特殊符号。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">密码必须包含至少 %d 个大写字母。</item>
+        <item quantity="one">密码必须包含至少 1 个大写字母。</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">自定义硬件按钮</item>
+        <item quantity="one">自定义硬件按钮</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">现在只需再执行 %1$d 步操作即可进入开发者模式。</item>
+        <item quantity="one">现在只需再执行 %1$d 步操作即可进入开发者模式。</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">还能再试 %d 次</item>
+        <item quantity="one">还能再试 %d 次</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d天</item>
+        <item quantity="one">%d天</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">%d小时</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">%d分钟</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">%d 天</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">开启 %d 小时</item>
+        <item quantity="one">开启 1 小时</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">开启 %d 分钟</item>
+        <item quantity="one">开启 1 分钟</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d 小时</item>
+        <item quantity="one">1 小时</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">1 分钟</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">已连接 %1$d 个设备</item>
+        <item quantity="one">已连接 %1$d 个设备</item>
+    </plurals>
+</resources>

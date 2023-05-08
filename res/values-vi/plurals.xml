@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Ứng dụng Máy ảnh</item>
+        <item quantity="one">Ứng dụng Máy ảnh</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Ứng dụng Email</item>
+        <item quantity="one">Ứng dụng Email</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Ứng dụng Điện thoại</item>
+        <item quantity="one">Ứng dụng Điện thoại</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Tối thiểu %d chứng chỉ CA</item>
+        <item quantity="one">%d Chứng nhận CA ít nhất</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Đã thử %d lần</item>
+        <item quantity="one">Đã thử %d lần</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d ứng dụng</item>
+        <item quantity="one">%d ứng dụng</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Ít nhất %d ứng dụng</item>
+        <item quantity="one">Ít nhất %d ứng dụng</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Mật khẩu phải chứa ít nhất %d chữ cái.</item>
+        <item quantity="one">Mật khẩu phải chứa ít nhất 1 chữ cái.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Mật khẩu phải chứa ít nhất %d chữ thường.</item>
+        <item quantity="one">Mật khẩu phải chứa ít nhất 1 chữ thường.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Mật khẩu phải chứa ít nhất %d ký tự không phải chữ cái.</item>
+        <item quantity="one">Mật khẩu phải chứa ít nhất 1 ký tự không phải chữ cái.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Mật khẩu phải chứa ít nhất %d chữ số.</item>
+        <item quantity="one">Mật khẩu phải chứa ít nhất 1 chữ số.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Mật khẩu phải chứa ít nhất %d ký tự đặc biệt.</item>
+        <item quantity="one">Mật khẩu phải chứa ít nhất 1 ký tự đặc biệt.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Mật khẩu phải chứa ít nhất %d chữ hoa.</item>
+        <item quantity="one">Mật khẩu phải chứa ít nhất 1 chữ hoa.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Tùy chỉnh các nút phần cứng</item>
+        <item quantity="one">Tùy chỉnh nút phần cứng</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Bây giờ, bạn chỉ cần thực hiện %1$d bước nữa là trở thành nhà phát triển.</item>
+        <item quantity="one">Bây giờ, bạn chỉ cần thực hiện %1$d bước nữa là trở thành nhà phát triển.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d lần thử nữa</item>
+        <item quantity="one">%d lần thử nữa</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d ngày</item>
+        <item quantity="one">%d ngày</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d giờ</item>
+        <item quantity="one">%d giờ</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d phút</item>
+        <item quantity="one">%d phút</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d ngày</item>
+        <item quantity="one">%d ngày</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d giờ</item>
+        <item quantity="one">%d giờ</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d phút</item>
+        <item quantity="one">%d phút</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Bật trong %d giờ</item>
+        <item quantity="one">Bật trong 1 giờ</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Bật trong %d phút</item>
+        <item quantity="one">Bật trong 1 phút</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d giờ</item>
+        <item quantity="one">1 giờ</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d phút</item>
+        <item quantity="one">1 phút</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d thiết bị được kết nối</item>
+        <item quantity="one">%1$d thiết bị được kết nối</item>
+    </plurals>
+</resources>

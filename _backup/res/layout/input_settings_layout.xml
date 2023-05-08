@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textColor="#ff9e9e9e" android:ellipsize="end" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:text="@string/input_settings" android:singleLine="true" android:fontFamily="sans-serif-condensed-light" />
+    <android.support.wearable.view.WearableListView android:id="@id/wheel" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">카메라 앱</item>
+        <item quantity="one">카메라 앱</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">이메일 클라이언트 앱</item>
+        <item quantity="one">이메일 클라이언트 앱</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">전화 앱</item>
+        <item quantity="one">전화 앱</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">CA 인증서 최소 %d개</item>
+        <item quantity="one">CA 인증서 최소 %d개</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d회 시도</item>
+        <item quantity="one">%d회 시도</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">앱 %d개</item>
+        <item quantity="one">앱 %d개</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">최소 %d개 앱</item>
+        <item quantity="one">최소 %d개 앱</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">비밀번호에는 문자가 %d자 이상 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 문자가 1자 이상 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">비밀번호에는 소문자가 %d자 이상 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 소문자가 1자 이상 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">비밀번호에는 글자가 아닌 문자가 %d개 이상 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 글자가 아닌 문자가 1개 이상 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">비밀번호에는 숫자가 %d개 이상 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 숫자가 1개 이상 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">비밀번호에는 특수 기호가 %d개 이상 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 특수 기호가 1개 이상 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">비밀번호에는 대문자가 %d자 이상 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 대문자가 1자 이상 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">하드웨어 버튼 맞춤설정</item>
+        <item quantity="one">하드웨어 버튼 맞춤설정</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">앞으로 %1$d단계만 거치면 개발자가 될 수 있습니다.</item>
+        <item quantity="one">앞으로 %1$d단계만 거치면 개발자가 될 수 있습니다.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d회 남음</item>
+        <item quantity="one">%d회 남음</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d일</item>
+        <item quantity="one">%d일</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d일</item>
+        <item quantity="one">%d일</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">%d시간 동안 사용</item>
+        <item quantity="one">1시간 동안 사용</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">%d분 동안 사용</item>
+        <item quantity="one">1분 동안 사용</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">1시간</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">1분</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">기기 %1$d개 연결됨</item>
+        <item quantity="one">기기 %1$d개 연결됨</item>
+    </plurals>
+</resources>

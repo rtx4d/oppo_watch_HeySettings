@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/number_sharing_title" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/number_sharing_calls_action" android:key="pref_call" />
+    <SwitchPreference android:persistent="false" android:title="@string/number_sharing_sms_action" android:key="pref_text" />
+</PreferenceScreen>

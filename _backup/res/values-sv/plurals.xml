@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kameraappar</item>
+        <item quantity="one">Kameraapp</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">E-postklientappar</item>
+        <item quantity="one">E-postklientapp</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Telefonappar</item>
+        <item quantity="one">Telefonapp</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Minst %d CA-certifikat</item>
+        <item quantity="one">Minst %d CA-certifikat</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d försök</item>
+        <item quantity="one">%d försök</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d appar</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Minst %d appar</item>
+        <item quantity="one">Minst %d app</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Lösenordet måste innehålla minst %d bokstäver.</item>
+        <item quantity="one">Lösenordet måste innehålla minst en bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Lösenordet måste innehålla minst %d små bokstäver.</item>
+        <item quantity="one">Lösenordet måste innehålla minst en liten bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Lösenordet måste innehålla minst %d tecken som inte är bokstäver.</item>
+        <item quantity="one">Lösenordet måste innehålla minst ett tecken som inte är en bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Lösenordet måste innehålla minst %d siffror.</item>
+        <item quantity="one">Lösenordet måste innehålla minst en siffra.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Lösenordet måste innehålla minst %d specialsymboler.</item>
+        <item quantity="one">Lösenordet måste innehålla minst en specialsymbol.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Lösenordet måste innehålla minst %d stora bokstäver.</item>
+        <item quantity="one">Lösenordet måste innehålla minst en stor bokstav.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Anpassa knappar på maskinvaran</item>
+        <item quantity="one">Anpassa knapp på maskinvaran</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Du är nu %1$d steg från att bli utvecklare.</item>
+        <item quantity="one">Du är nu %1$d steg från att bli utvecklare.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d försök till</item>
+        <item quantity="one">%d försök till</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d tim.</item>
+        <item quantity="one">%d tim.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d tim.</item>
+        <item quantity="one">%d tim.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Aktiverat i %d timmar</item>
+        <item quantity="one">Aktiverat i 1 timme</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Aktiverat i %d minuter</item>
+        <item quantity="one">Aktiverat i 1 minut</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">1 timme</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheter är anslutna</item>
+        <item quantity="one">%1$d enhet är ansluten</item>
+    </plurals>
+</resources>

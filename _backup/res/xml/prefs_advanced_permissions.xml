@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/pref_draw_over_other_apps_title" android:key="pref_advancedPermissions_drawOverlay" app:dialogMessage="@string/draw_over_other_apps_dialog_description" app:dialogTitle="@string/draw_over_other_apps_dialog_title" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/pref_write_settings_title" android:key="pref_advancedPermissions_writeSettings" app:dialogMessage="@string/write_settings_dialog_description" app:dialogTitle="@string/write_settings_dialog_title" />
+</PreferenceScreen>

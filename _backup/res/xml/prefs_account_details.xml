@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenyDialogPreference android:icon="@drawable/ic_cc_settings_remove" android:persistent="false" android:title="@string/pref_removeAccount" android:key="pref_removeAccount" />
+</PreferenceScreen>

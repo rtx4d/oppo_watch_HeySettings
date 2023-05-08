@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:icon="@drawable/ic_cc_settings_call" android:persistent="false" android:title="@string/emergency_dialer_title" android:key="pref_emergency_dialer" />
+    <Preference android:icon="@drawable/ic_cc_settings_accessibility" android:persistent="false" android:title="@string/main_accessibility" android:key="pref_prepairAccessibility" android:fragment="com.google.android.clockwork.settings.accessibility.AccessibilityFragment" />
+    <com.google.android.clockwork.settings.display.BrightnessPreference />
+    <com.google.android.clockwork.settings.display.FontSizePreference />
+    <com.google.android.clockwork.settings.sound.VolumePreference android:icon="@drawable/ic_cc_settings_note" android:title="@string/pref_mediaVolume" android:key="pref_mediaVolume" app:stream="music" />
+    <Preference android:icon="@drawable/ic_cc_settings_wifi_4" android:persistent="false" android:title="@string/pref_wifi" android:key="pref_wifi" android:fragment="com.google.android.clockwork.settings.connectivity.wifi.WifiSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_cellular_4" android:persistent="false" android:title="@string/pref_cellular" android:key="pref_cellular">
+        <intent android:targetPackage="com.google.android.apps.wearable.settings" android:targetClass="com.google.android.clockwork.settings.connectivity.cellular.CellularSettingsActivity" />
+    </Preference>
+    <com.google.android.clockwork.settings.system.FactoryResetPreference />
+    <com.google.android.clockwork.settings.system.PowerOffPreference />
+    <Preference android:icon="@drawable/ic_cc_settings_clock" android:persistent="false" android:title="@string/pref_dateTime" android:key="pref_dateTime" android:fragment="com.google.android.clockwork.settings.system.DateTimeSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_about" android:persistent="false" android:title="@string/pref_about" android:key="pref_about" android:fragment="com.google.android.clockwork.settings.system.DeviceInfoFragment" />
+</PreferenceScreen>

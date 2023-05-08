@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.WearableFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/onboarding_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom|center" android:id="@id/pagination" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/onboarding_pagination_margin_bottom" app:layout_marginBottomRound="@dimen/onboarding_pagination_margin_bottom_round">
+        <FrameLayout android:layout_width="@dimen/onboarding_page_indicator_size" android:layout_height="@dimen/onboarding_page_indicator_size">
+            <ImageView android:layout_gravity="center" android:id="@id/step_one_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ob_page_dot" />
+            <ImageView android:id="@id/step_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ob_step_one" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="@dimen/onboarding_page_indicator_size" android:layout_height="@dimen/onboarding_page_indicator_size">
+            <ImageView android:layout_gravity="center" android:id="@id/step_two_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ob_page_dot" />
+            <ImageView android:id="@id/step_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ob_step_two" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="@dimen/onboarding_page_indicator_size" android:layout_height="@dimen/onboarding_page_indicator_size">
+            <ImageView android:layout_gravity="center" android:id="@id/step_three_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ob_page_dot" />
+            <ImageView android:id="@id/step_three" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ob_step_three" />
+        </FrameLayout>
+    </LinearLayout>
+</android.support.wearable.view.WearableFrameLayout>

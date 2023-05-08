@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/volume_activity_padding" android:paddingEnd="@dimen/volume_activity_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:gravity="center" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/settings_header_base_height" android:layout_marginTop="?android:dialogPreferredPadding" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/volume_activity_icon_size" android:layout_height="@dimen/volume_activity_icon_size" android:layout_centerVertical="true" />
+    <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="@integer/volume_max_progress" android:minWidth="40.0dip" android:minHeight="40.0dip" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" />
+</RelativeLayout>

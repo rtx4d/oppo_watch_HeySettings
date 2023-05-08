@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/main_sound"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.clockwork.settings.sound.VolumePreference android:icon="@drawable/ic_cc_settings_note" android:title="@string/pref_mediaVolume" android:key="pref_mediaVolume" android:order="10" app:stream="music" />
+    <com.google.android.clockwork.settings.sound.VolumePreference android:icon="@drawable/ic_cc_settings_accessibility" android:title="@string/pref_accessibilityVolume" android:key="pref_accessibilityVolume" android:order="15" app:stream="accessibility" />
+    <com.google.android.clockwork.settings.sound.VolumePreference android:icon="@drawable/ic_cc_settings_alarm" android:title="@string/pref_alarmVolume" android:key="pref_alarmVolume" android:order="20" app:stream="alarm" />
+    <com.google.android.clockwork.settings.sound.VolumePreference android:icon="@drawable/ic_cc_settings_ring" android:title="@string/pref_ringVolume" android:key="pref_ringVolume" android:order="30" app:stream="ring" />
+    <SwitchPreference android:persistent="false" android:title="@string/pref_vibrateForCalls" android:key="pref_vibrateForCalls" android:order="50" />
+    <com.google.android.clockwork.settings.sound.DefaultRingtonePreference android:icon="@drawable/ic_cc_settings_ring" android:persistent="false" android:title="@string/pref_watchRingtone" android:key="pref_watchRingtone" android:order="60" android:dialogTitle="@string/pref_watchRingtone" android:ringtoneType="ringtone" android:showDefault="false" />
+</PreferenceScreen>

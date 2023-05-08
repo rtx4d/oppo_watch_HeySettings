@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Камеры</item>
+        <item quantity="one">Камеры</item>
+        <item quantity="few">Камеры</item>
+        <item quantity="many">Камер</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Почтовые клиенты</item>
+        <item quantity="one">Почтовые клиенты</item>
+        <item quantity="few">Почтовых клиента</item>
+        <item quantity="many">Почтовых клиентов</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Телефоны</item>
+        <item quantity="one">Телефоны</item>
+        <item quantity="few">Телефона</item>
+        <item quantity="many">Телефонов</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Не менее %d сертификатов центра сертификации</item>
+        <item quantity="one">%d сертификат CA, не менее</item>
+        <item quantity="few">Не менее %d сертификатов ЦС</item>
+        <item quantity="many">Не менее %d сертификатов ЦС</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Сделано %d попыток</item>
+        <item quantity="one">Сделана %d попытка</item>
+        <item quantity="few">%d попытки</item>
+        <item quantity="many">%d попыток</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d приложений</item>
+        <item quantity="one">%d приложение</item>
+        <item quantity="few">%d приложения</item>
+        <item quantity="many">%d приложений</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Приложений (не менее): %d</item>
+        <item quantity="one">Приложений (не менее): %d</item>
+        <item quantity="few">Не менее %d приложений</item>
+        <item quantity="many">Не менее %d приложений</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль должен содержать хотя бы %d буквы.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d букву.</item>
+        <item quantity="few">Пароль должен содержать хотя бы %d буквы.</item>
+        <item quantity="many">Пароль должен содержать хотя бы %d букв.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль должен содержать хотя бы %d строчной буквы.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d строчную букву.</item>
+        <item quantity="few">Пароль должен содержать хотя бы %d строчные буквы.</item>
+        <item quantity="many">Пароль должен содержать хотя бы %d строчных букв.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль должен содержать хотя бы %d небуквенного символа.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d небуквенный символ.</item>
+        <item quantity="few">Пароль должен содержать хотя бы %d небуквенных символа.</item>
+        <item quantity="many">Пароль должен содержать хотя бы %d небуквенных символов.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль должен содержать хотя бы %d цифры.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d цифру.</item>
+        <item quantity="few">Пароль должен содержать хотя бы %d цифры.</item>
+        <item quantity="many">Пароль должен содержать хотя бы %d цифр.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль должен содержать хотя бы %d специального символа.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d специальный символ.</item>
+        <item quantity="few">Пароль должен содержать хотя бы %d специальных символа.</item>
+        <item quantity="many">Пароль должен содержать хотя бы %d специальных символов.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль должен содержать хотя бы %d заглавной буквы.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d заглавную букву.</item>
+        <item quantity="few">Пароль должен содержать хотя бы %d заглавные буквы.</item>
+        <item quantity="many">Пароль должен содержать хотя бы %d заглавных букв.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Настройка аппаратных кнопок</item>
+        <item quantity="one">Настройка аппаратных кнопок</item>
+        <item quantity="few">Настройка аппаратных кнопок</item>
+        <item quantity="many">Настройка аппаратных кнопок</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы почти у цели. Осталось %1$d шагов.</item>
+        <item quantity="one">Вы почти у цели. Остался %1$d шаг.</item>
+        <item quantity="few">Вы почти у цели. Осталось %1$d шага.</item>
+        <item quantity="many">Вы почти у цели. Осталось %1$d шагов.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">Осталось %d попытки</item>
+        <item quantity="one">Осталась %d попытка</item>
+        <item quantity="few">Осталось %d попытки</item>
+        <item quantity="many">Осталось %d попыток</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d д</item>
+        <item quantity="one">%d д</item>
+        <item quantity="few">%d д</item>
+        <item quantity="many">%d д</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">%d ч</item>
+        <item quantity="few">%d ч</item>
+        <item quantity="many">%d ч</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d м</item>
+        <item quantity="one">%d м</item>
+        <item quantity="few">%d м</item>
+        <item quantity="many">%d м</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d дн.</item>
+        <item quantity="few">%d дн.</item>
+        <item quantity="many">%d дн.</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d ч.</item>
+        <item quantity="few">%d ч.</item>
+        <item quantity="many">%d ч.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d мин.</item>
+        <item quantity="many">%d мин.</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Включено на %d часа</item>
+        <item quantity="one">Включено на %d час</item>
+        <item quantity="few">Включено на %d часа</item>
+        <item quantity="many">Включено на %d часов</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Включено на %d минуты</item>
+        <item quantity="one">Включено на %d минуту</item>
+        <item quantity="few">Включено на %d минуты</item>
+        <item quantity="many">Включено на %d минут</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Подключено %1$d устройства</item>
+        <item quantity="one">Подключено %1$d устройство</item>
+        <item quantity="few">Подключено %1$d устройства</item>
+        <item quantity="many">Подключено %1$d устройств</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/screenbrightness_button_plus_height" android:width="@dimen/screenbrightness_button_plus_width" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@color/screenbrightness_button_plus_minus" android:pathData="M0 7V9H7V16H9V9H16V7H9V0H7V7" />
+</vector>

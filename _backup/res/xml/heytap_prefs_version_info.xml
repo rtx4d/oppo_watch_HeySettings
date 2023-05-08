@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/info_label_version" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/info_label_wear_os_version" android:key="pref_wear_os_version" android:order="0" />
+    <Preference android:persistent="false" android:title="@string/info_label_home_app" android:key="pref_home_app" android:order="1" />
+    <Preference android:persistent="false" android:key="pref_gms_package_name" android:order="2" />
+    <Preference android:persistent="false" android:title="@string/info_label_os_version" android:key="pref_os_version" android:order="3" />
+    <Preference android:persistent="false" android:title="@string/info_label_security_patch" android:key="pref_security_patch" android:order="4" />
+</PreferenceScreen>

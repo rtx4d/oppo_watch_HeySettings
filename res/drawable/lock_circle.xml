@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/pair_button_diameter" android:width="@dimen/pair_button_diameter" />
+                    <solid android:color="@color/deny_pressed" />
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_boot_demo" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/pair_button_diameter" android:width="@dimen/pair_button_diameter" />
+                    <solid android:color="@color/deny" />
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_boot_demo" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

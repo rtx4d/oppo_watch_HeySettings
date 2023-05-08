@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" android:sharedUserId="android.uid.system" coreApp="true" package="com.google.android.apps.wearable.settings" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <protected-broadcast android:name="com.google.android.clockwork.settings.FactoryResetDialogActivity.RETAIN_ESIM"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.PhoneTimeSyncer.action.TIMEOUT"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.TimeSyncManager.action.POLL"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.TimeZoneMediator.action.CHECK_TIMEZONE"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.bluetooth.ACTION_SHAM_PROXY_PROFILE_CHANGE"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.SYNC_TILT_TO_WAKE_ENABLED"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.SYNC_AMBIENT_DISABLED"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.connectivity.wifi.SCROLL_TO_TOP"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.cellular.SWITCH_SUBSCRIPTION_RESULT"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.cellular.ERASE_SUBSCRIPTION_RESULT"/>
+    <protected-broadcast android:name="com.google.android.clockwork.settings.cellular.ERASE_ALL_SUBSCRIPTIONS_RESULT"/>
+    <protected-broadcast android:name="com.google.android.clockwork.actions.WET_MODE_STARTED"/>
+    <protected-broadcast android:name="com.google.android.clockwork.actions.WET_MODE_ENDED"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.DISABLE_INPUT_DEVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_APP_OPS_STATS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS"/>
+    <uses-permission android:name="android.permission.MANAGE_USB"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SET_ORIENTATION"/>
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="com.google.android.permission.NOTIFY_GPS_ACTIVITY"/>
+    <uses-permission android:name="com.google.android.permission.PROVIDE_SETUP_DEFAULTS"/>
+    <uses-permission android:name="com.google.android.wearable.permission.CLOUD_SYNC_OPT_IN"/>
+    <uses-permission android:name="com.google.android.clockwork.systemui.KEYGUARD_PASSWORD_SET"/>
+    <uses-permission android:name="com.google.android.clockwork.systemui.CONTROL_KEYGUARD"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="com.google.android.clockwork.settings.CHANGE_TIME"/>
+    <uses-permission android:name="com.google.android.clockwork.home.tts.permission.PLAY_TTS"/>
+    <uses-permission android:name="com.google.android.permission.INSTALL_WEARABLE_PACKAGES"/>
+    <uses-permission android:name="com.google.android.clockwork.settings.permission.PROVIDER_BACKUP"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.MANAGE_USER_OEM_UNLOCK_STATE"/>
+    <permission android:description="@string/perm_description_change_airplane_mode" android:label="@string/perm_label_change_airplane_mode" android:name="com.google.android.clockwork.settings.CHANGE_AIRPLANE_MODE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_toggle_sunlight_mode" android:label="@string/perm_label_toggle_sunlight_mode" android:name="com.google.android.clockwork.settings.TOGGLE_SUNLIGHT_MODE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_configure_chosen_apps" android:label="@string/perm_label_configure_chosen_apps" android:name="com.google.android.clockwork.settings.CONFIGURE_CHOSEN_APPS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_change_time" android:label="@string/perm_label_change_time" android:name="com.google.android.clockwork.settings.CHANGE_TIME" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_set_global_key" android:label="@string/perm_label_set_global_key" android:name="com.google.android.clockwork.settings.SET_GLOBAL_KEY" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_set_power_save" android:label="@string/perm_label_set_power_save" android:name="com.google.android.clockwork.settings.SET_POWER_SAVE_MODE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_configure_proxy" android:label="@string/perm_label_configure_proxy" android:name="com.google.android.clockwork.settings.CONFIGURE_PROXY" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_change_locale" android:label="@string/perm_label_change_locale" android:name="com.google.android.clockwork.settings.CHANGE_LOCALE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_configure_doze" android:label="@string/perm_label_configure_doze" android:name="com.google.android.clockwork.settings.CONFIGURE_DOZE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_battery_stats" android:label="@string/perm_label_battery_stats" android:name="com.google.android.clockwork.settings.BATTERY_STATS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_retail" android:label="@string/perm_label_retail" android:name="com.google.android.clockwork.settings.CONFIGURE_RETAIL" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_read_settings" android:label="@string/perm_label_read_settings" android:name="com.google.android.wearable.READ_SETTINGS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_write_settings" android:label="@string/perm_label_write_settings" android:name="com.google.android.wearable.WRITE_SETTINGS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_lock_updates" android:label="@string/perm_label_lock_updates" android:name="com.google.android.clockwork.settings.LOCK_UPDATES" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_storage_stats" android:label="@string/perm_label_storage_stats" android:name="com.google.android.clockwork.settings.STORAGE_STATS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_start_theater_mode" android:label="@string/perm_label_start_theater_mode" android:name="com.google.android.clockwork.settings.START_THEATER_MODE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_watch_power" android:label="@string/perm_label_watch_power" android:name="com.google.android.clockwork.settings.WATCH_POWER" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_watch_touch" android:label="@string/perm_label_watch_touch" android:name="com.google.android.clockwork.settings.WATCH_TOUCH" android:protectionLevel="normal"/>
+    <permission android:description="@string/perm_description_end_wet_mode" android:label="@string/perm_label_end_wet_mode" android:name="com.google.android.clockwork.settings.END_WET_MODE" android:protectionLevel="normal"/>
+    <permission android:description="@string/perm_description_set_home_ready" android:label="@string/perm_label_set_home_ready" android:name="com.google.android.clockwork.settings.SET_HOME_READY" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_disable_fitness" android:label="@string/perm_label_disable_fitness" android:name="com.google.android.clockwork.settings.DISABLE_FITNESS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_show_factory_reset_confirmation" android:label="@string/perm_label_show_factory_reset_confirmation" android:name="com.google.android.clockwork.settings.SHOW_FACTORY_RESET_CONFIRMATION" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_keyguard_password_set" android:label="@string/perm_label_keyguard_password_set" android:name="com.google.android.clockwork.systemui.KEYGUARD_PASSWORD_SET" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_description_enable_extra_cores" android:label="@string/perm_label_enable_extra_cores" android:name="com.google.android.clockwork.settings.ENABLE_EXTRA_CORES" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.google.android.clockwork.settings.experimental.permission.CONTROL_ADB_OVER_WIFI" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.google.android.clockwork.settings.CHANGE_THEME" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.google.android.clockwork.settings.permission.PROVIDER_BACKUP" android:protectionLevel="signature"/>
+    <application android:allowBackup="true" android:backupAgent="com.google.android.clockwork.settings.provider.SettingsBackupAgent" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:icon="@mipmap/ic_launcher_settings" android:label="@string/app_name" android:name="com.google.android.clockwork.settings.SettingsApplication" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/Theme.Settings">
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIq3Ccfr21REyA8leCDk5ukr5gPDjiV0dFuA6uqA"/>
+        <uses-library android:name="com.google.android.wearable" android:required="false"/>
+        <activity android:excludeFromRecents="true" android:name="com.google.android.clockwork.settings.FallbackHome" android:theme="@style/Theme.Transparent">
+            <intent-filter android:priority="-1000">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="android.support.wearable.preference.WearablePreferenceActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.MainSettingsActivity">
+            <intent-filter>
+                <action android:name="android.settings.SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.WRIST_GESTURE_SETTINGS_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.DATE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.LOCATION_SOURCE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.WIFI_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.NFC_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.WIRELESS_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.DISPLAY_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.SOUND_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.MANAGE_APPLICATIONS_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.action.MANAGE_OVERLAY_PERMISSION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.action.MANAGE_OVERLAY_PERMISSION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.action.MANAGE_WRITE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.action.MANAGE_WRITE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.APPLICATION_DEVELOPMENT_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.TTS_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.ACCESSIBILITY_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.BLUETOOTH_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.BUTTON_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.APPLICATION_DETAILS_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.EXERCISE_DETECTION_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.APPLICATION_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.PRIVACY_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.DEVICE_INFO_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.SYNC_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.os.storage.action.MANAGE_STORAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.USAGE_ACCESS_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.ENTERPRISE_PRIVACY_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.SECURITY_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.ADD_ACCOUNT_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.BATTERY_SAVER_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.DO_NOT_DISTURB_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.google.android.clockwork.settings.RemoteBugreportActivity" android:permission="android.permission.DUMP" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.settings.SHOW_REMOTE_BUGREPORT_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.google.android.clockwork.settings.display.ShowTiltToWakeActivity" android:permission="android.permission.DUMP" android:theme="@style/DialogStyle">
+            <intent-filter>
+                <action android:name="android.settings.SHOW_DETAIL_INFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.google.android.clockwork.settings.FakeSettingsActivity" android:theme="@style/Theme.Settings.Dimmed">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.INTERNAL_STORAGE_SETTINGS"/>
+                <action android:name="android.settings.MEMORY_CARD_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MANAGE_PACKAGE_STORAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.WEBVIEW_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.IGNORE_BACKGROUND_DATA_RESTRICTIONS_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.MANAGE_DEFAULT_APPS_SETTINGS"/>
+                <action android:name="android.settings.HOME_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.APN_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_COMMAND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.speech.action.VOICE_SEARCH_HANDS_FREE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.google.android.clockwork.settings.UnsupportedSettingsActivity" android:theme="@style/Theme.Settings.Dimmed">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.MANAGE_UNKNOWN_APP_SOURCES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="com.google.android.clockwork.settings.SetupSettingsActivity" android:targetActivity="com.google.android.clockwork.settings.MainSettingsActivity">
+            <intent-filter android:priority="2">
+                <action android:name="android.intent.action.ASSIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="2">
+                <action android:name="android.intent.action.VOICE_ASSIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/lock_settings_title" android:name="com.google.android.clockwork.settings.keyguard.LockSettingsActivity">
+            <intent-filter android:priority="1">
+                <action android:name="android.app.action.SET_NEW_PASSWORD"/>
+                <action android:name="android.app.action.SET_NEW_PARENT_PROFILE_PASSWORD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.keyguard.RemoveLockActivity" android:noHistory="true" android:taskAffinity=".RemoveLockActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.keyguard.ConfirmDeviceCredentialActivity" android:taskAffinity=".ConfirmDeviceCredentialActivity">
+            <intent-filter android:priority="1">
+                <action android:name="android.app.action.CONFIRM_DEVICE_CREDENTIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.keyguard.ChooseLockPattern" android:noHistory="true" android:taskAffinity=".ChooseLockPattern" android:theme="@style/LockPatternTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.keyguard.ChooseLockPassword" android:noHistory="true" android:taskAffinity=".ChooseLockPassword" android:theme="@style/TranslucentTheme"/>
+        <activity android:name="com.google.android.clockwork.settings.keyguard.RetrieveLockPattern" android:noHistory="true" android:taskAffinity=".RetrieveLockPattern" android:theme="@style/LockPatternTheme"/>
+        <activity android:name="com.google.android.clockwork.settings.keyguard.RetrieveLockPassword" android:noHistory="true" android:taskAffinity=".RetrieveLockPassword" android:theme="@style/TranslucentTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.keyguard.heytap.PasswordSetActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity=".PasswordSetActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.system.FactoryResetDialogActivity" android:permission="com.google.android.clockwork.settings.SHOW_FACTORY_RESET_CONFIRMATION" android:showOnLockScreen="true" android:theme="@style/TranslucentTheme">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.FACTORY_RESET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.clockwork.settings.BatteryActivity"/>
+        <activity android:clearTaskOnLaunch="true" android:label="" android:name="com.google.android.clockwork.settings.input.InputMethodAndSubtypeEnablerActivity">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.INPUT_METHOD_SUBTYPE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.VOICE_LAUNCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true"/>
+        </activity>
+        <activity android:label="@string/available_virtual_keyboard_category" android:name="com.google.android.clockwork.settings.input.AvailableVirtualKeyboardActivity">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.INPUT_METHOD_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.google.android.clockwork.settings.input.AvailableVirtualKeyboardFragment"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true"/>
+        </activity>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.personal.fitness.RelayIntentService"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.google.android.clockwork.settings.personal.fitness.ExerciseDetectionRelayActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.google.android.clockwork.settings.accessibility.AccessibilityServiceDialogActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothEnterPinActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothConfirmPasskeyActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothPairingConsentActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothDisplayPasskeyActivity"/>
+        <activity android:excludeFromRecents="true" android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothSettingsEnableActivity" android:permission="android.permission.BLUETOOTH">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.REQUEST_ENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothSettingsDisableActivity" android:permission="android.permission.BLUETOOTH">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.REQUEST_DISABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothRequestDiscoverableActivity">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.REQUEST_DISCOVERABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.SecureAdbActivity" android:permission="android.permission.MANAGE_USB" android:taskAffinity=".SecureAdbConfirmation"/>
+        <activity-alias android:exported="true" android:name="com.google.android.clockwork.settings.SecureAdbActivityAlias" android:permission="android.permission.DUMP" android:targetActivity="com.google.android.clockwork.settings.SecureAdbActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:launchMode="singleTop" android:name="com.google.android.apps.wearable.resolver.ResolverActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.RegulatoryInformationActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.connectivity.cellular.CellularSettingsActivity" android:process="com.android.phone">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.DATA_ROAMING_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.ACTION_CHANGE_DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.EsimProfileActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.ResetEsimActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.DataUsageActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.AppUsageActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.EmergencyAlertsActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.AlertDurationChooser"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.ResumeDataDialog"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.connectivity.cellular.CallForwardingActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.connectivity.cellular.WearablePhonePreferenceActivity" android:process="com.android.phone"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.cellular.CellularAdvancedActivity" android:process="com.android.phone"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.EsimTestUtilActivity"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.cellular.PhoneAccountsActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.cellular.ApnDetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/telephony-carrier"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.SimLockEnableActivity" android:process="com.android.phone"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.SimPinChangeActivity" android:process="com.android.phone"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.SimLockedDialog"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.SimUnlockActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.SimUnlockFailure"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.cellular.IccHotswapPromptForRestartDialog"/>
+        <activity android:launchMode="standard" android:name="com.google.android.clockwork.settings.display.AdaptiveBrightnessActivity" android:taskAffinity=".AdaptiveBrightnessActivity"/>
+        <activity android:launchMode="standard" android:name="com.google.android.clockwork.settings.sound.VolumeActivity" android:taskAffinity=".VolumeActivity"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.cellular.PhoneNumberActivity"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.cellular.VoicemailNumberActivity"/>
+        <activity android:exported="true" android:name="com.google.android.clockwork.settings.connectivity.wifi.WifiAddNetworkActivity" android:permission="android.permission.CHANGE_WIFI_STATE">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.connectivity.wifi.ADD_NETWORK_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.clockwork.settings.connectivity.wifi.WifiWaitForPhoneActivity"/>
+        <activity android:excludeFromRecents="true" android:name="com.google.android.clockwork.settings.connectivity.wifi.WifiSettingsEnableActivity" android:permission="android.permission.CHANGE_WIFI_STATE">
+            <intent-filter>
+                <action android:name="android.net.wifi.action.REQUEST_ENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.google.android.clockwork.settings.connectivity.wifi.WifiSettingsDisableActivity" android:permission="android.permission.CHANGE_WIFI_STATE">
+            <intent-filter>
+                <action android:name="android.net.wifi.action.REQUEST_DISABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="true" android:exported="true" android:name="com.google.android.clockwork.settings.CloudSyncOptInSettingsActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="true" android:exported="true" android:name="com.google.android.clockwork.settings.UnsupportedLanguageDialog" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.clockwork.settings.CheckProxyActivity"/>
+        <activity android:name="com.google.android.clockwork.settings.PhoneAwayErrorDialog"/>
+        <activity android:exported="true" android:name="android.support.wearable.activity.ConfirmationActivity"/>
+        <activity android:enabled="true" android:exported="true" android:name="com.google.android.clockwork.settings.CredentialStorage" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.android.credentials.UNLOCK"/>
+                <action android:name="com.android.credentials.INSTALL"/>
+                <action android:name="com.android.credentials.RESET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:name="com.google.android.clockwork.settings.DeviceAdminAdd">
+            <intent-filter>
+                <action android:name="android.app.action.ADD_DEVICE_ADMIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.google.android.clockwork.settings.ShowAdminSupportDetailsDialog" android:theme="@style/Theme.Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.SHOW_ADMIN_SUPPORT_DETAILS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.heytap.disturb.SettingsForbidDisturbActivity" android:taskAffinity="com.google.android.apps.wearable.settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.FORBID_DISTURB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.heytap.disturb.SetDisturbTimeActivity" android:taskAffinity="com.google.android.apps.wearable.settings"/>
+        <receiver android:name="com.android.settingslib.bluetooth.BluetoothDiscoverableTimeoutReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.intent.DISCOVERABLE_TIMEOUT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.GlobalKeyReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.GLOBAL_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.SetGlobalKeyReceiver" android:permission="com.google.android.clockwork.settings.SET_GLOBAL_KEY">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SET_GLOBAL_KEY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.HomeReadyReceiver" android:permission="com.google.android.clockwork.settings.SET_HOME_READY">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.ACTION_SET_HOME_READY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.android.clockwork.settings.display.ThemeReceiver" android:permission="com.google.android.clockwork.settings.CHANGE_THEME">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SET_THEME"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.android.clockwork.settings.TimeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:label="@string/time_service_name" android:name="com.google.android.clockwork.settings.TimeService" android:permission="com.google.android.clockwork.settings.CHANGE_TIME">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SET_TIME"/>
+                <action android:name="com.google.android.clockwork.settings.SET_TIMEZONE"/>
+                <action android:name="com.google.android.clockwork.settings.SET_24HOUR"/>
+                <action android:name="com.google.android.clockwork.settings.SET_TIME_SYNCER_HOME_TIME"/>
+                <action android:name="com.google.android.clockwork.settings.REQUEST_TIME_SYNCER_UPDATE"/>
+                <action android:name="com.google.android.clockwork.settings.EVALUATE_TIME_SYNCING"/>
+                <action android:name="com.google.android.clockwork.settings.EVALUATE_TIME_ZONE_SYNCING"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.google.android.clockwork.settings.TimeDebugService" android:permission="android.permission.DUMP"/>
+        <service android:exported="false" android:name="com.google.android.clockwork.settings.time.RefreshTimeJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.google.android.clockwork.settings.time.NitzTimeUpdateService" android:process="com.android.phone"/>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.time.TelephonyTimeZoneService" android:permission="android.permission.SET_TIME_ZONE"/>
+        <service android:exported="true" android:label="@string/locale_service_name" android:name="com.google.android.clockwork.settings.LocaleService" android:permission="com.google.android.clockwork.settings.CHANGE_LOCALE">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SET_LOCALE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.HeytapNotificationService">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.HEYTAP_NOTIFICATION"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.wifi.WifiCountryCodeService" android:permission="com.google.android.clockwork.settings.CHANGE_LOCALE">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SET_WIFI_COUNTRY_CODE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:label="@string/airplane_mode_service_name" android:name="com.google.android.clockwork.settings.AirplaneModeService" android:permission="com.google.android.clockwork.settings.CHANGE_AIRPLANE_MODE">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.CHANGE_AIRPLANE_MODE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.connectivity.cellular.CallForwardingService"/>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.connectivity.cellular.ResumeDataService"/>
+        <service android:exported="true" android:label="@string/configure_chosen_apps_service_name" android:name="com.google.android.clockwork.settings.ConfigureChosenAppsService" android:permission="com.google.android.clockwork.settings.CONFIGURE_CHOSEN_APPS">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.ACTION_CLEAR_LAST_CHOSEN_APP"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.BatteryStatsSettingsService" android:permission="com.google.android.clockwork.settings.BATTERY_STATS"/>
+        <service android:exported="true" android:label="@string/retail_service_name" android:name="com.google.android.clockwork.settings.RetailService" android:permission="com.google.android.clockwork.settings.CONFIGURE_RETAIL">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.ENTER_RETAIL"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:label="@string/disable_fitness_service_name" android:name="com.google.android.clockwork.settings.DisableFitnessService" android:permission="com.google.android.clockwork.settings.DISABLE_FITNESS">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.DISABLE_FITNESS_DURING_SETUP"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.clockwork.settings.PayOnStemService"/>
+        <service android:name="com.google.android.clockwork.settings.PowerSaveModeListenerService"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.clockwork.settings.RetailStatusService"/>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.connectivity.cellular.PhoneProxyService" android:process="com.android.phone"/>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.cellular.SetNumberService" android:process="com.android.phone"/>
+        <provider android:authorities="com.google.android.wearable.settings" android:exported="true" android:name="com.google.android.clockwork.settings.provider.SettingsProvider" android:process="system" android:writePermission="com.google.android.wearable.WRITE_SETTINGS"/>
+        <provider android:authorities="com.google.android.wearable.settings.update" android:exported="true" android:name="com.google.android.clockwork.settings.provider.UpdateAmbientStatue" android:process="system"/>
+        <service android:exported="false" android:name="com.google.android.clockwork.settings.provider.BackupService" android:process="system"/>
+        <service android:exported="true" android:label="@string/update_lock_service_name" android:name="com.google.android.clockwork.settings.UpdateLockHolderService" android:permission="com.google.android.clockwork.settings.LOCK_UPDATES">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.LOCK_UPDATES"/>
+                <action android:name="com.google.android.clockwork.settings.UNLOCK_UPDATES"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.clockwork.settings.AdbBluetoothTargetService"/>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.StorageStatsSettingsService" android:permission="com.google.android.clockwork.settings.STORAGE_STATS"/>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.StartTheaterModeService" android:permission="com.google.android.clockwork.settings.START_THEATER_MODE"/>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.wifi.WifiSettingsService" android:permission="android.permission.CHANGE_WIFI_STATE">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.CHANGE_WIFI_STATE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.clockwork.settings.VolumeUIService" android:process="system"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:name="com.google.android.clockwork.settings.BootReceiver" android:priority="10">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.LeGserviceFlagsOverrideReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+                <action android:name="com.google.android.checkin.CHECKIN_COMPLETE"/>
+                <category android:name="com.google.android.clockwork.settings.CATEGORY_LE_GSERVICE_FLAGS_OVERRIDE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.PowerReceiver" android:permission="com.google.android.clockwork.settings.WATCH_POWER">
+            <intent-filter>
+                <action android:name="com.google.android.wearable.home.action.SLEEP"/>
+                <action android:name="com.google.android.wearable.home.action.ENABLE_MULTICORE"/>
+                <action android:name="com.google.android.wearable.home.action.DISABLE_MULTICORE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.display.WetModeReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.wearable.action.ENABLE_WET_MODE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.android.clockwork.settings.display.WetModeService">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.BIND_WET_MODE_TILT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.google.android.clockwork.settings.PowerSaveModeReceiver" android:permission="com.google.android.clockwork.settings.SET_POWER_SAVE_MODE">
+            <intent-filter>
+                <action android:name="com.google.android.wearable.home.action.ENABLE_POWER_SAVE_MODE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.android.clockwork.settings.connectivity.HFPBroadcastReceiver" android:permission="android.permission.BLUETOOTH_ADMIN">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.action.enable_hfp"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.android.clockwork.settings.A2ABroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.A2APairing"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.google.android.clockwork.settings.A2AConfirmCodeActivity"/>
+        <receiver android:name="com.google.android.clockwork.settings.RetailTimeReceiver" android:permission="com.google.android.clockwork.settings.CHANGE_TIME">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.home.retail.action.FINISHED_RETAIL_DREAM"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.GpsActivityReceiver">
+            <intent-filter>
+                <action android:name="android.location.HIGH_POWER_REQUEST_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.connectivity.BluetoothCompanionReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.bluetooth.COMPANION_MAC"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothPairingRequestReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.connectivity.BluetoothBondStateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.UUID"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.connectivity.BluetoothConfigureProxyReceiver" android:permission="com.google.android.clockwork.settings.CONFIGURE_PROXY">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.CONFIGURE_PROXY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothAclReceiver" android:permission="android.permission.BLUETOOTH">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothAclService" android:permission="android.permission.BLUETOOTH"/>
+        <receiver android:name="com.google.android.clockwork.settings.LocaleChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.clockwork.settings.connectivity.A2dpConnectService"/>
+        <receiver android:name="com.google.android.clockwork.settings.SetLGAAYLReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.apps.wearable.settings.SET_LGAAYL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.cellular.SimStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.NetworkPolicyNotificationReceiver">
+            <intent-filter>
+                <action android:name="android.net.action.SHOW_NETWORK_POLICY_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.TwinningStateBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.TWINNING_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:name="com.google.android.clockwork.settings.ScreenLockPromptActivity">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SCREEN_LOCK_PROMPT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.google.android.clockwork.settings.personal.buttons.StemPressedActivity" android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.home.action.FROM_HOME_STEM_PRESSED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.google.android.clockwork.settings.twm.TwmActivity">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.ENTER_TWM"/>
+                <action android:name="com.google.android.clockwork.settings.TWM_NO_WATCHFACE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.google.android.clockwork.settings.NetworkPolicyNotificationIntentService"/>
+        <service android:name="com.google.android.clockwork.settings.cellular.SimStateIntentService"/>
+        <service android:name="com.google.android.clockwork.settings.DisableAmbientService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.google.android.clockwork.settings.SetTiltToWakeService">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SET_TILT_TO_WAKE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.google.android.clockwork.settings.CpuCoreService" android:permission="com.google.android.clockwork.settings.ENABLE_EXTRA_CORES"/>
+        <receiver android:name="com.google.android.clockwork.settings.EnableAllLanguagesReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.ENABLE_ALL_LANGUAGES"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.SyncAmbientReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.SYNC_AMBIENT_SETTINGS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.clockwork.settings.experimental.AdbOverWifiControlReceiver" android:permission="com.google.android.clockwork.settings.experimental.permission.CONTROL_ADB_OVER_WIFI">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.experimental.action.ENABLE_ADB_OVER_WIFI"/>
+                <action android:name="com.google.android.clockwork.settings.experimental.action.DISABLE_ADB_OVER_WIFI"/>
+            </intent-filter>
+        </receiver>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.heytap.loadfont.LoadFontLibConfirmActivity">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.heytap.loadfont"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.heytap.location.GpsUpdateActivity">
+            <intent-filter>
+                <action android:name="com.google.android.clockwork.settings.heytap.GPS_UPDATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.google.android.clockwork.settings.heytap.mobile.HeytapMobileDataActivity" android:process="com.android.phone">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.MOBILE_DATA_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.google.android.apps.wearable.settings.MobileDataStateProvider" android:exported="true" android:name="com.google.android.clockwork.settings.heytap.provider.MoblieDataStateProvider" android:process="system"/>
+        <receiver android:name="com.google.android.clockwork.settings.personal.buttons.ButtonOverlayBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

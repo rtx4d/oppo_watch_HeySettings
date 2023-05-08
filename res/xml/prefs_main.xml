@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/suggested_settings_battery_saver" android:key="pref_batterySaver_suggested_settings" android:summary="@string/suggested_settings_summary" />
+    <Preference android:layout="@layout/divider" android:key="pref_divider" />
+    <Preference android:icon="@drawable/ic_cc_settings_brightness" android:persistent="false" android:title="@string/main_display" android:key="pref_mainDisplay" android:fragment="com.google.android.clockwork.settings.display.DisplaySettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_ring" android:persistent="false" android:title="@string/main_sound" android:key="pref_soundNotification" android:fragment="com.google.android.clockwork.settings.sound.SoundSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_apps" android:persistent="false" android:title="@string/main_apps" android:key="pref_mainApps" android:fragment="com.google.android.clockwork.settings.apps.AppsSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_wrist_gesture_on" android:persistent="false" android:title="@string/main_gestures" android:key="pref_mainGestures" android:fragment="com.google.android.clockwork.settings.gestures.GesturesSettingsFragment" />
+    <Preference android:icon="@drawable/ic_settings_cloud" android:persistent="false" android:title="@string/main_connectivity" android:key="pref_mainConnectivity" android:fragment="com.google.android.clockwork.settings.connectivity.ConnectivitySettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_accessibility" android:persistent="false" android:title="@string/main_accessibility" android:key="pref_mainAccessibility" android:fragment="com.google.android.clockwork.settings.accessibility.AccessibilityFragment" />
+    <Preference android:icon="@drawable/heytap_ic_settings_device_only" android:persistent="false" android:title="@string/main_general" android:key="pref_mainGeneral">
+        <intent android:targetPackage="com.google.android.wearable.app" android:action="com.google.android.clockwork.home.ACTION_GENERAL_SETTINGS" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_cc_settings_personal" android:persistent="false" android:title="@string/main_personal" android:key="pref_mainPersonal" android:fragment="com.google.android.clockwork.settings.personal.PersonalSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_storage" android:persistent="false" android:title="@string/pref_storage" android:key="pref_mainAppStorage" android:fragment="com.google.android.clockwork.settings.apps.AppStorageSettingsFragment" />
+    <Preference android:icon="@drawable/ic_cc_settings_system" android:persistent="false" android:title="@string/main_system" android:key="pref_mainSystem" android:fragment="com.google.android.clockwork.settings.system.SystemSettingsFragment" />
+</PreferenceScreen>

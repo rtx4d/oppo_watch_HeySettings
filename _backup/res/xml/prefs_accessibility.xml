@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/main_accessibility" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:persistent="false" android:title="@string/action_accessibility_color_inversion" android:key="pref_accessibility_colorInversion" android:order="10" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/action_accessibility_large_text" android:key="pref_accessibility_largeText" android:order="20" app:showDialogWhenTurningOff="true" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/action_accessibility_magnification" android:key="pref_accessibility_magnification" android:order="30" app:showDialogWhenTurningOff="true" />
+    <Preference android:icon="@drawable/ic_cc_settings_text_to_speech" android:persistent="false" android:title="@string/tts_settings_title" android:key="pref_accessibility_tts" android:order="40" android:fragment="com.google.android.clockwork.settings.accessibility.tts.TtsFragment" />
+    <SwitchPreference android:persistent="false" android:title="@string/accessibility_power_button" android:key="pref_accessibility_sideButton" android:order="50" />
+</PreferenceScreen>

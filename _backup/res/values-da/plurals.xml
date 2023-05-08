@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kameraapps</item>
+        <item quantity="one">Kameraapp</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Mailklientapps</item>
+        <item quantity="one">Mailklientapp</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Opkaldsapps</item>
+        <item quantity="one">Opkaldsapp</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Mindst %d CA-certifikater</item>
+        <item quantity="one">Mindst %d CA-certifikat</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d forsøg</item>
+        <item quantity="one">%d forsøg</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Mindst %d apps</item>
+        <item quantity="one">Mindst %d app</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Adgangskoden skal indeholder mindst %d bogstaver.</item>
+        <item quantity="one">Adgangskoden skal indeholder mindst %d bogstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Adgangskoden skal indeholde mindst %d små bogstaver.</item>
+        <item quantity="one">Adgangskoden skal indeholde mindst %d lille bogstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Adgangskoden skal indeholde mindst %d tegn, der ikke er bogstaver.</item>
+        <item quantity="one">Adgangskoden skal indeholde mindst %d tegn, der ikke er et bogstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Adgangskoden skal indeholde mindst %d tal.</item>
+        <item quantity="one">Adgangskoden skal indeholde mindst %d tal.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Adgangskoden skal indeholde mindst %d specialtegn.</item>
+        <item quantity="one">Adgangskoden skal indeholde mindst %d specialtegn.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Adgangskoden skal indeholde mindst %d store bogstaver.</item>
+        <item quantity="one">Adgangskoden skal indeholde mindst %d stort bogstav.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Tilpas hardwareknapper</item>
+        <item quantity="one">Tilpas hardwareknap</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Du er nu %1$d skridt fra at være udvikler.</item>
+        <item quantity="one">Du er nu %1$d skridt fra at være udvikler.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d forsøg mere</item>
+        <item quantity="one">%d forsøg mere</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d dage</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d t.</item>
+        <item quantity="one">%d t.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dage</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Aktiveret i %d timer</item>
+        <item quantity="one">Aktiveret i %d time</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Aktiveret i %d min.</item>
+        <item quantity="one">Aktiveret i %d min.</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheder er tilsluttet</item>
+        <item quantity="one">%1$d enhed er tilsluttet</item>
+    </plurals>
+</resources>

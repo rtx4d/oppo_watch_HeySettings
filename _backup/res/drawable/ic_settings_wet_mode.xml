@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/icon_background_shape" />
+    <item android:gravity="center">
+        <vector android:tint="@color/icon_color" android:height="@dimen/settings_list_icon_size" android:width="@dimen/settings_list_icon_size" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:fillColor="@android:color/white" android:pathData="M18.373,16.96L12.255,10.5L12.76,10.5C12.95,10.5 13.13,10.54 13.3,10.61L17.84,12.87C18.37,13.09 18.75,13.63 18.75,14.25C18.75,14.31 18.74,14.38 18.73,14.45L18.373,16.96ZM18.058,19.172L17.98,19.72C17.87,20.45 17.29,21 16.54,21L9.75,21C9.34,21 8.96,20.83 8.69,20.56L3.75,15.62L4.54,14.82C4.74,14.62 5.02,14.49 5.33,14.49C5.42,14.49 5.49,14.51 5.57,14.52L9,15.24L9,9.606L18.058,19.172ZM9,7.063L9,4.5C9,3.67 9.67,3 10.5,3C11.33,3 12,3.67 12,4.5L12,10.231L9,7.063Z" />
+            <path android:fillColor="@android:color/white" android:pathData="M18.867,22.029l1.204,-1.272l-15.867,-16.756l-1.205,1.272z" />
+        </vector>
+    </item>
+</layer-list>

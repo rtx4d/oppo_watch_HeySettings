@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_app_about" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:title="@string/app_info_label_version" android:key="pref_version" />
+    <Preference android:persistent="false" android:title="@string/app_info_label_storage" android:key="pref_storage" />
+    <Preference android:persistent="false" android:title="@string/app_info_label_data" android:key="pref_data" />
+    <Preference android:persistent="false" android:title="@string/app_info_label_cache" android:key="pref_cache" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenyDialogPreference android:persistent="false" android:title="@string/app_info_label_clear_data" android:key="pref_clear_data" app:dialogMessage="@string/app_info_dialog_delete_data_message" app:dialogTitle="@string/app_info_dialog_delete_data_title" />
+    <Preference android:persistent="false" android:title="@string/app_info_label_clear_cache" android:key="pref_clear_cache" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenyDialogPreference android:persistent="false" android:title="@string/app_label_uninstall" android:key="pref_uninstall" />
+</PreferenceScreen>

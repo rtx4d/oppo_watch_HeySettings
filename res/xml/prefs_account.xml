@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_accounts"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/ic_cc_settings_add" android:persistent="false" android:title="@string/pref_addAccount" android:key="pref_addAccount">
+        <intent android:action="com.google.android.clockwork.home.accounts.ADD_ACCOUNTS" />
+    </Preference>
+</PreferenceScreen>

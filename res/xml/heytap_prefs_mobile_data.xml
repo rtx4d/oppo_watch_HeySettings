@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/heytap_cellularToggle" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.clockwork.settings.heytap.view.HeyAcceptDenySwitchPreference android:persistent="false" android:title="@string/heytap_cellularToggle" android:key="pref_cellularDataToggle" android:order="10" app:dialogMessage="@string/heytap_confirm_enable_or_not" app:dialogTitle="@string/heytap_mobile_data_consume_power_tips" />
+</PreferenceScreen>

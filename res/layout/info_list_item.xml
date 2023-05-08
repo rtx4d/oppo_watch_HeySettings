@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/info_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:gravity="bottom|center|left" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:fontFamily="sans-serif-condensed" />
+    <TextView android:textSize="16.0sp" android:gravity="center|left|top" android:id="@id/value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/title" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" android:fontFamily="sans-serif-condensed-light" />
+</RelativeLayout>

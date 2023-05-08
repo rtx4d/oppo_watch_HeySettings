@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/main_display" android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:icon="@drawable/ic_play_watchface" android:persistent="false" android:title="@string/pref_watchface" android:key="pref_watchface" android:order="10" />
+    <com.google.android.clockwork.settings.display.BrightnessPreference android:order="20" />
+    <Preference android:icon="@drawable/ic_cc_settings_autoboost" android:persistent="false" android:title="@string/pref_praisethesun" android:key="pref_praisethesun" android:order="21">
+        <intent android:targetPackage="com.google.android.clockwork.brightness" android:targetClass="com.google.android.clockwork.brightness.HighBrightnessSettings" />
+    </Preference>
+    <com.google.android.clockwork.settings.display.FontSizePreference android:order="30" />
+    <PreferenceScreen android:persistent="false" android:title="@string/pref_screenOrientation" android:key="pref_screenOrientation" android:order="40">
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_screenOrientation_labelLeftWrist" android:key="pref_screenOrientation_leftWrist" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <com.google.android.clockwork.settings.common.RadioButtonPreference android:title="@string/pref_screenOrientation_labelRightWrist" android:key="pref_screenOrientation_rightWrist" android:widgetLayout="@layout/preference_widget_radiobutton" />
+    </PreferenceScreen>
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/pref_alwaysOnScreen" android:key="pref_alwaysOnScreen" android:order="50" app:dialogMessage="@string/enable_ambient_screen_subtitle" app:dialogTitle="@string/enable_ambient_screen" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:title="@string/heytap_screenon_animation" android:key="pref_screenOnAnimator" android:order="60" app:dialogMessage="@string/enable_ambient_screen_subtitle" app:dialogTitle="@string/heytap_screenon_animation_dialog_title" />
+    <com.google.android.clockwork.settings.display.HeytapTouchLockPreference android:order="70" />
+</PreferenceScreen>

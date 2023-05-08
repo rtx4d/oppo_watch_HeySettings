@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.wearable.view.CircledImageView android:layout_gravity="center_vertical" android:id="@id/image" android:layout_width="52.0dip" android:layout_height="52.0dip" android:alpha="0.5" app:circle_border_color="#ffffffff" app:circle_border_width="1.0dip" app:circle_color="#00000000" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/settings_text_margin_left">
+        <TextView android:textSize="@dimen/wifi_settings_item_title_text_size" android:ellipsize="end" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:alpha="0.5" style="@style/TextView.Settings.Label" />
+        <com.google.android.clockwork.views.DynamicEditTextView android:textAppearance="@style/TextAppearance.Settings.Label.Large" android:ellipsize="end" android:id="@id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:default_text_size="@dimen/wifi_settings_item_desc_text_size" style="@style/TextView.Settings.Label" />
+    </LinearLayout>
+</LinearLayout>

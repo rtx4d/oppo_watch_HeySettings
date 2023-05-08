@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/apps_settings_loading" android:widgetLayout="@layout/preference_loading_placeholder" android:shouldDisableView="false" />
+</PreferenceScreen>

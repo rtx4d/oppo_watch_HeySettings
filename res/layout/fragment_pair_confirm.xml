@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pairing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/pair_with" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/rect_side_content_inset" android:minHeight="24.0dip" style="@style/PairingTitle" />
+    <TextView android:id="@id/instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/rect_side_content_inset" android:minHeight="19.0dip" style="@style/PairingInstructions" />
+    <TextView android:gravity="center|left|top" android:id="@id/pair_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rect_side_content_inset" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/rect_side_content_inset" android:minHeight="24.0dip" style="@style/PairingCode" />
+</LinearLayout>

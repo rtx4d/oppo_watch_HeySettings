@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Apps de câmera</item>
+        <item quantity="one">App de câmera</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Apps de cliente de e-mail</item>
+        <item quantity="one">App de cliente de e-mail</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Apps de telefone</item>
+        <item quantity="one">App de telefone</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">No mínimo, %d certificados de CA</item>
+        <item quantity="one">No mínimo, %d certificado de CA</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d tentativas</item>
+        <item quantity="one">%d tentativa</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">No mínimo, %d apps</item>
+        <item quantity="one">No mínimo, %d app</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">A senha deve conter pelo menos %d letras.</item>
+        <item quantity="one">A senha deve conter pelo menos %d letras.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">A senha deve conter pelo menos %d letras minúsculas.</item>
+        <item quantity="one">A senha deve conter pelo menos %d letras minúsculas.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">A senha deve conter pelo menos %d caracteres que não sejam letras.</item>
+        <item quantity="one">A senha deve conter pelo menos %d caracteres que não sejam letras.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">A senha deve conter pelo menos %d dígitos numéricos.</item>
+        <item quantity="one">A senha deve conter pelo menos %d dígitos numéricos.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">A senha deve conter pelo menos %d símbolos especiais.</item>
+        <item quantity="one">A senha deve conter pelo menos %d símbolos especiais.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">A senha deve conter pelo menos %d letras maiúsculas.</item>
+        <item quantity="one">A senha deve conter pelo menos %d letras maiúsculas.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Personalizar botões de hardware</item>
+        <item quantity="one">Personalizar botão de hardware</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Faltam %1$d etapas para você se tornar um desenvolvedor.</item>
+        <item quantity="one">Faltam %1$d etapas para você se tornar um desenvolvedor.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">mais %d tentativas</item>
+        <item quantity="one">mais %d tentativas</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Ativada por %d horas</item>
+        <item quantity="one">Ativada por %d hora</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Ativada por %d minutos</item>
+        <item quantity="one">Ativada por %d minuto</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d horas</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minutos</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositivos conectados</item>
+        <item quantity="one">%1$d dispositivo conectado</item>
+    </plurals>
+</resources>

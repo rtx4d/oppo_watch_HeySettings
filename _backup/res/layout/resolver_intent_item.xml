@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.wearable.resolver.ResolverActivityItem android:gravity="center" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/resolver_item_application_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="8.0dip" android:layout_centerVertical="true" />
+    <TextView android:id="@id/resolver_item_application_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_toRightOf="@id/resolver_item_application_image" android:layout_centerVertical="true" style="@android:style/TextAppearance.Material.Subhead" />
+</com.google.android.apps.wearable.resolver.ResolverActivityItem>

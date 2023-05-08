@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orderingFromXml="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:persistent="false" android:title="@string/power_saving_mode" android:key="heytap_pref_batterySaver" android:order="10" />
+    <SwitchPreference android:persistent="true" android:title="@string/heytap_battery_life_assistant" android:key="pref_low_battery_littlecore" android:order="20" />
+    <SwitchPreference android:persistent="true" android:title="@string/heytap_sleep_optimization" android:key="heytap_pref_sleep_optimization" android:order="30" />
+    <com.google.android.wearable.libraries.steampack.acceptdenydialog.AcceptDenySwitchPreference android:persistent="false" android:key="pref_autoBatterySaver" android:order="40" app:showDialogWhenTurningOn="false" />
+</PreferenceScreen>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kamera-apper</item>
+        <item quantity="one">Kamera-app</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">E-postapper</item>
+        <item quantity="one">E-postapp</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Telefon-apper</item>
+        <item quantity="one">Telefon-app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Minimum %d CA-sertifikater</item>
+        <item quantity="one">Minimum %d CA-sertifikat</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d forsøk</item>
+        <item quantity="one">%d forsøk</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Minimum %d apper</item>
+        <item quantity="one">Minimum %d app</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Passordet må inneholde minst %d bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Passordet må inneholde minst %d små bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én liten bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Passordet må inneholde minst %d tegn som ikke er bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst ett tegn som ikke er en bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Passordet må inneholde minst %d sifre.</item>
+        <item quantity="one">Passordet må inneholde minst ett siffer.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Passordet må inneholde minst %d spesialtegn.</item>
+        <item quantity="one">Passordet må inneholde minst ett spesialtegn.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Passordet må inneholde minst %d store bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én stor bokstav.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Tilpass fysiske knapper</item>
+        <item quantity="one">Tilpass fysisk knapp</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Du er nå %1$d skritt fra å bli en utvikler.</item>
+        <item quantity="one">Du er nå %1$d skritt fra å bli en utvikler.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d forsøk igjen</item>
+        <item quantity="one">%d forsøk igjen</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dt</item>
+        <item quantity="one">%dt</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">På i %d timer</item>
+        <item quantity="one">På i 1 time</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">På i %d minutter</item>
+        <item quantity="one">På i 1 minutt</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">1 time</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">1 minutt</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheter er tilkoblet</item>
+        <item quantity="one">%1$d enhet er tilkoblet</item>
+    </plurals>
+</resources>

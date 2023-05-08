@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/WearText.Title" android:textSize="@dimen/screenbrightness_title_text_size" android:textColor="@android:color/white" android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/screenbrightness_title_top_margin" android:text="@string/generic_brightness" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:layout_gravity="start|center" android:id="@id/decrease_brightness_button" android:background="@drawable/minus_plus_button_ripple_background" android:layout_marginLeft="@dimen/screenbrightness_button_left_margin" android:src="@drawable/ic_cc_settings_screenbrightness_minus" style="@style/ScreenBrightness_Button" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/dots_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="end|center" android:id="@id/increase_brightness_button" android:background="@drawable/minus_plus_button_ripple_background" android:layout_marginRight="@dimen/screenbrightness_button_right_margin" android:src="@drawable/ic_cc_settings_screenbrightness_plus" style="@style/ScreenBrightness_Button" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/screenbrightness_switch_layout_bottom_margin" android:baselineAligned="false" android:layout_marginStart="@dimen/screenbrightness_switch_layout_left_margin">
+        <fragment android:name="com.google.android.clockwork.settings.display.AdaptiveBrightnessSwitchFragment" android:id="@id/screen_brightness_switch_fragment" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

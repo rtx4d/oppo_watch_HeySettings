@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">カメラアプリ</item>
+        <item quantity="one">カメラアプリ</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">メールクライアントアプリ</item>
+        <item quantity="one">メールクライアントアプリ</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">電話アプリ</item>
+        <item quantity="one">電話アプリ</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">少なくとも%d通のCA証明書</item>
+        <item quantity="one">少なくとも%d通のCA証明書</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d回試行されました</item>
+        <item quantity="one">%d回試行されました</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d 個以上のアプリ</item>
+        <item quantity="one">%d 個以上のアプリ</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d 個以上のアプリ</item>
+        <item quantity="one">%d 個以上のアプリ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">パスワードには英字が %d 文字以上必要です。</item>
+        <item quantity="one">パスワードには英字が 1 文字以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">パスワードには小文字の英字が %d 文字以上必要です。</item>
+        <item quantity="one">パスワードには小文字の英字が 1 文字以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">パスワードには記号または数字が %d 個以上必要です。</item>
+        <item quantity="one">パスワードには記号または数字が 1 つ以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">パスワードには数字が %d 個以上必要です。</item>
+        <item quantity="one">パスワードには数字が 1 つ以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">パスワードには記号が %d 個以上必要です。</item>
+        <item quantity="one">パスワードには記号が 1 つ以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">パスワードには大文字の英字が %d 文字以上必要です。</item>
+        <item quantity="one">パスワードには大文字の英字が 1 文字以上必要です。</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">ハードウェア ボタンのカスタマイズ</item>
+        <item quantity="one">ハードウェア ボタンのカスタマイズ</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">デベロッパーになるまであと%1$dステップです。</item>
+        <item quantity="one">デベロッパーになるまであと%1$dステップです。</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">あと%d回</item>
+        <item quantity="one">あと%d回</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">%d 時間 ON</item>
+        <item quantity="one">1 時間 ON</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">%d 分間 ON</item>
+        <item quantity="one">1 分間 ON</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d 台のデバイスが接続されています</item>
+        <item quantity="one">%1$d 台のデバイスが接続されています</item>
+    </plurals>
+</resources>

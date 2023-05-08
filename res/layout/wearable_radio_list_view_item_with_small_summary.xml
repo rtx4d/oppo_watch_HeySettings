@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/radio_circle" android:background="@drawable/circle_outline" android:layout_width="@dimen/radio_circle_size" android:layout_height="@dimen/radio_circle_size">
+        <View android:layout_gravity="center" android:id="@id/radio_circle_inner" android:background="@drawable/circle_interior" android:layout_width="@dimen/radio_inner_circle_size" android:layout_height="@dimen/radio_inner_circle_size" />
+        <ImageView android:layout_gravity="center" android:id="@id/radio_circle_inner_custom" android:visibility="gone" android:layout_width="@dimen/radio_inner_circle_size" android:layout_height="@dimen/radio_inner_circle_size" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_left_margin" android:layout_marginRight="@dimen/text_left_margin" android:layout_weight="1.0">
+        <TextView android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RadioItemTextStyle" />
+        <TextView android:id="@id/item_summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RadioItemTextStyle.Small" />
+    </LinearLayout>
+</LinearLayout>

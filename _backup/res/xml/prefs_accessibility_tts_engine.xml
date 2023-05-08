@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/tts_engine_settings_section"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:icon="@drawable/ic_cc_settings_textsize" android:persistent="false" android:title="@string/tts_default_lang_title" android:key="pref_accessibility_tts_engine_language" />
+    <Preference android:icon="@drawable/ic_cc_settings_text_to_speech" android:persistent="false" android:title="@string/tts_play_example_title" android:key="pref_accessibility_tts_engine_listenToSample" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/tts_engine_set_as_default" android:key="pref_accessibility_tts_engine_default" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/secure_adb_confirmation_title" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/ic_cc_settings_developer" android:persistent="false" android:title="@string/secure_adb_cancel" android:key="pref_secureAdbCancel" />
+    <Preference android:icon="@drawable/ic_cc_settings_developer" android:persistent="false" android:title="@string/secure_adb_ok" android:key="pref_secureAdbOk" />
+    <Preference android:icon="@drawable/ic_cc_settings_developer" android:persistent="false" android:title="@string/secure_adb_whitelist_label" android:key="pref_secureAdbWhitelist" />
+    <Preference android:icon="@drawable/ic_cc_settings_morehorizontal" android:persistent="false" android:title="@string/secure_adb_view_fingerprint" android:key="pref_secureAdbFingerprint" />
+</PreferenceScreen>

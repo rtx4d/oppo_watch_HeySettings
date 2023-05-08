@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="l_title">26.0sp</dimen>
+    <dimen name="s_title">17.0sp</dimen>
+    <dimen name="dialog_padding_button">12.0dip</dimen>
+    <dimen name="hey_big_button_padding_horizontal">10.0dip</dimen>
+    <dimen name="hey_default_textSize">17.0sp</dimen>
+    <dimen name="screen_always_on_imagebutton_margin_top">12.0dip</dimen>
+    <dimen name="screen_always_on_textView_padding_top">42.5dip</dimen>
+    <dimen name="textview_min_high">96.0dip</dimen>
+</resources>

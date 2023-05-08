@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kamerasovellukset</item>
+        <item quantity="one">Kamerasovellus</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Sähköpostisovellukset</item>
+        <item quantity="one">Sähköpostisovellus</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Puhelinsovellukset</item>
+        <item quantity="one">Puhelinsovellus</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Vähintään %d CA-varmennetta</item>
+        <item quantity="one">Vähintään %d CA-varmenne</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d yritystä</item>
+        <item quantity="one">%d yritys</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d sovellusta</item>
+        <item quantity="one">%d sovellus</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Vähintään %d sovellusta</item>
+        <item quantity="one">Vähintään %d sovellus</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Salasanassa on oltava vähintään %d kirjainta.</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 kirjain.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Salasanassa on oltava vähintään %d pientä kirjainta.</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 pieni kirjain.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Salasanassa on oltava vähintään %d merkkiä, jotka eivät ole kirjaimia.</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 merkki, joka ei ole kirjain.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Salasanassa on oltava vähintään %d numeroa.</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 numero.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Salasanassa on oltava vähintään %d erikoismerkkiä.</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 erikoismerkki.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Salasanassa on oltava vähintään %d isoa kirjainta.</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 iso kirjain.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Muokkaa kiinteitä painikkeita</item>
+        <item quantity="one">Muokkaa kiinteää painiketta</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Enää %1$d vaihetta, niin sinusta tulee kehittäjä.</item>
+        <item quantity="one">Enää %1$d vaihe, niin sinusta tulee kehittäjä.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d yritystä jäljellä</item>
+        <item quantity="one">%d yritys jäljellä</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dp</item>
+        <item quantity="one">%dp</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dt</item>
+        <item quantity="one">%dt</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d pv</item>
+        <item quantity="one">%d pv</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d t</item>
+        <item quantity="one">%d t</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Käytössä %d tuntia</item>
+        <item quantity="one">Käytössä 1 tunnin</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Käytössä %d minuuttia</item>
+        <item quantity="one">Käytössä 1 minuutin</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">1 tunti</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">1 minuutti</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d laitetta liitetty</item>
+        <item quantity="one">%1$d laite liitetty</item>
+    </plurals>
+</resources>

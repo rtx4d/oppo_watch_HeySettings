@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/icon_background_shape" />
+    <item android:gravity="center">
+        <vector android:tint="@color/icon_color" android:height="@dimen/settings_list_icon_size" android:width="@dimen/settings_list_icon_size" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:fillColor="@android:color/white" android:pathData="M11.1,7.4V13l4.8,2.9l0.8-1.4l-4-2.3V7.4H11.1L11.1,7.4z" />
+            <path android:fillColor="@android:color/white" android:pathData="M2.6,12m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M21.4,12m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M3.9,16.7m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M20.1,7.3m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M7.3,20.1m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M16.7,3.9m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M12,21.4m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M12,2.6m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M16.7,20.1m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M7.3,3.9m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M20.1,16.7m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+            <path android:fillColor="@android:color/white" android:pathData="M3.9,7.3m-1.1,0a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0" />
+        </vector>
+    </item>
+</layer-list>

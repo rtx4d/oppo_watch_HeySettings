@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Додатки для камери</item>
+        <item quantity="one">Додатки для камери</item>
+        <item quantity="few">Додатки для камери</item>
+        <item quantity="many">Додатки для камери</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Додатки для пошти</item>
+        <item quantity="one">Додатки для пошти</item>
+        <item quantity="few">Додатки для пошти</item>
+        <item quantity="many">Додатки для пошти</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Додатки для дзвінків</item>
+        <item quantity="one">Додатки для дзвінків</item>
+        <item quantity="few">Додатки для дзвінків</item>
+        <item quantity="many">Додатки для дзвінків</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Щонайменше %d сертифіката центру сертифікації</item>
+        <item quantity="one">Щонайменше %d сертифікат центру сертифікації</item>
+        <item quantity="few">Щонайменше %d сертифікати центру сертифікації</item>
+        <item quantity="many">Щонайменше %d сертифікатів центру сертифікації</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d спроби</item>
+        <item quantity="one">%d спроба</item>
+        <item quantity="few">%d спроби</item>
+        <item quantity="many">%d спроб</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d додатка</item>
+        <item quantity="one">%d додаток</item>
+        <item quantity="few">%d додатки</item>
+        <item quantity="many">%d додатків</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Щонайменше %d додатка</item>
+        <item quantity="one">Щонайменше %d додаток</item>
+        <item quantity="few">Щонайменше %d додатки</item>
+        <item quantity="many">Щонайменше %d додатків</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль має містити принаймні %d літери.</item>
+        <item quantity="one">Пароль має містити принаймні %d літеру.</item>
+        <item quantity="few">Пароль має містити принаймні %d літери.</item>
+        <item quantity="many">Пароль має містити принаймні %d літер.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль має містити принаймні %d малої літери.</item>
+        <item quantity="one">Пароль має містити принаймні %d малу літеру.</item>
+        <item quantity="few">Пароль має містити принаймні %d малі літери.</item>
+        <item quantity="many">Пароль має містити принаймні %d малих літер.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль має містити принаймні %d символу, які не є літерами.</item>
+        <item quantity="one">Пароль має містити принаймні %d символ, який не є літерою.</item>
+        <item quantity="few">Пароль має містити принаймні %d символи, які не є літерами.</item>
+        <item quantity="many">Пароль має містити принаймні %d символів, які не є літерами.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль має містити принаймні %d цифри.</item>
+        <item quantity="one">Пароль має містити принаймні %d цифру.</item>
+        <item quantity="few">Пароль має містити принаймні %d цифри.</item>
+        <item quantity="many">Пароль має містити принаймні %d цифр.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль має містити принаймні %d спеціального символу.</item>
+        <item quantity="one">Пароль має містити принаймні %d спеціальний символ.</item>
+        <item quantity="few">Пароль має містити принаймні %d спеціальні символи.</item>
+        <item quantity="many">Пароль має містити принаймні %d спеціальних символів.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль має містити принаймні %d великої літери.</item>
+        <item quantity="one">Пароль має містити принаймні %d велику літеру.</item>
+        <item quantity="few">Пароль має містити принаймні %d великі літери.</item>
+        <item quantity="many">Пароль має містити принаймні %d великих літер.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Налаштуйте кнопки годинника</item>
+        <item quantity="one">Налаштуйте кнопки годинника</item>
+        <item quantity="few">Налаштуйте кнопки годинника</item>
+        <item quantity="many">Налаштуйте кнопки годинника</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Щоб стати розробником, залишилося ще %1$d кроку.</item>
+        <item quantity="one">Щоб стати розробником, залишився ще %1$d крок.</item>
+        <item quantity="few">Щоб стати розробником, залишилося ще %1$d кроки.</item>
+        <item quantity="many">Щоб стати розробником, залишилося ще %1$d кроків.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">Ще %d спроби</item>
+        <item quantity="one">Ще %d спроба</item>
+        <item quantity="few">Ще %d спроби</item>
+        <item quantity="many">Ще %d спроб</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">Увімкнено на %d години</item>
+        <item quantity="one">Увімкнено на %d годину</item>
+        <item quantity="few">Увімкнено на %d години</item>
+        <item quantity="many">Увімкнено на %d годин</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">Увімкнено на %d хв</item>
+        <item quantity="one">Увімкнено на %d хв</item>
+        <item quantity="few">Увімкнено на %d хв</item>
+        <item quantity="many">Увімкнено на %d хв</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d години</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d хвилини</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Під’єднано %1$d пристрою</item>
+        <item quantity="one">Під’єднано %1$d пристрій</item>
+        <item quantity="few">Під’єднано %1$d пристрої</item>
+        <item quantity="many">Під’єднано %1$d пристроїв</item>
+    </plurals>
+</resources>

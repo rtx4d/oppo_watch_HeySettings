@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_simStatus" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:title="@string/sim_status_title_network" android:key="pref_simStatusNetwork" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_signal_strength" android:key="pref_simStatusSignalStrength" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_network_type" android:key="pref_simStatusNetworkType" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_service_state" android:key="pref_simStatusServiceState" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_roaming_state" android:key="pref_simStatusRoamingState" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_network_state" android:key="pref_simStatusNetworkState" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_phone_number" android:key="pref_simStatusPhoneNumber" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_imei" android:key="pref_simStatusImei" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_imei_sv" android:key="pref_simStatusImeiSv" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_iccid" android:key="pref_simStatusIccid" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title_eid" android:key="pref_simStatusEid" />
+</PreferenceScreen>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circ_bottom_inset">16.0dip</dimen>
+    <dimen name="circ_side_content_inset_wof_left">32.0dip</dimen>
+    <dimen name="circ_side_content_inset_wof_right">32.0dip</dimen>
+    <dimen name="circ_top_inset">32.0dip</dimen>
+    <dimen name="confirm_button_radius">49.0dip</dimen>
+    <dimen name="confirm_button_size">98.0dip</dimen>
+    <dimen name="date_picker_text_size">58.0sp</dimen>
+    <dimen name="date_teaser_center_offset">24.0dip</dimen>
+    <dimen name="locale_font_size">16.0dip</dimen>
+    <dimen name="onboarding_large_image_margin_bottom_round">44.0dip</dimen>
+    <dimen name="onboarding_margin_horizontal_round">32.0dip</dimen>
+    <dimen name="onboarding_text_margin_top_round">28.0dip</dimen>
+    <dimen name="onboarding_text_width_round">176.0dip</dimen>
+    <dimen name="oobe_welcom_bottom_watch_strip_horizontal_adjustment">155.0dip</dimen>
+    <dimen name="oobe_welcome_swipe_text_bottom_margin_round">38.0dip</dimen>
+    <dimen name="oobe_welcome_watch_overlay_size">27.0dip</dimen>
+    <dimen name="oobe_welcome_watch_size">80.0dip</dimen>
+    <dimen name="oobe_welcome_welcome_text_top_margin_round">42.0dip</dimen>
+    <dimen name="pair_button_diameter">64.0dip</dimen>
+    <dimen name="picker_small_text_size">36.0sp</dimen>
+    <dimen name="round_content_padding_left">40.0dip</dimen>
+    <dimen name="round_content_padding_right">40.0dip</dimen>
+    <dimen name="settings_text_margin_left">10.0dip</dimen>
+    <dimen name="time_picker_text_size">58.0sp</dimen>
+    <dimen name="time_teaser_center_offset">8.0dip</dimen>
+    <dimen name="onboarding_pagination_margin_bottom_round">16.0dip</dimen>
+    <dimen name="oobe_welcome_overlay_height_round">84.0dip</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_screenLock" android:orderingFromXml="true" android:key="pref_screenLock"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.clockwork.settings.common.RadioButtonPreference android:persistent="false" android:title="@string/action_lock_pattern" android:key="pref_pattern" android:widgetLayout="@layout/preference_widget_radiobutton" />
+    <com.google.android.clockwork.settings.common.RadioButtonPreference android:persistent="false" android:title="@string/action_lock_pin" android:key="pref_pin" android:widgetLayout="@layout/preference_widget_radiobutton" />
+    <com.google.android.clockwork.settings.common.RadioButtonPreference android:persistent="false" android:title="@string/action_lock_password" android:key="pref_password" android:widgetLayout="@layout/preference_widget_radiobutton" />
+    <com.google.android.clockwork.settings.common.RadioButtonPreference android:persistent="false" android:title="@string/action_lock_none" android:key="pref_none" android:widgetLayout="@layout/preference_widget_radiobutton" />
+</PreferenceScreen>

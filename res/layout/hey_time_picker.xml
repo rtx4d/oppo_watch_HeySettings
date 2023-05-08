@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/time_pickers" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.heytap.wearable.support.widget.HeyNumberPicker android:id="@id/amPm" android:layout_width="53.0dip" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginRight="11.0dip" app:heyTextArray="@array/apm" app:heyTextSizeNormal="@dimen/s_title" app:heyTextSizeSelected="@dimen/l_title" />
+    <com.heytap.wearable.support.widget.HeyNumberPicker android:id="@id/hour" android:layout_width="53.0dip" android:layout_height="fill_parent" android:layout_marginRight="11.0dip" app:heyTextArray="@array/hour_12" />
+    <com.heytap.wearable.support.widget.HeyNumberPicker android:id="@id/minute" android:layout_width="53.0dip" android:layout_height="fill_parent" app:heyTextArray="@array/minute" />
+</LinearLayout>

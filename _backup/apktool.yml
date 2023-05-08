@@ -1,0 +1,33 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: HeySettings.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '23'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  build-data.properties: '8'
+  protobuf.meta: '8'
+  error_prone/Annotations.gwt.xml: '8'
+  googledata/third_party/tz/jdk/tzdb.dat: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '28'
+  versionName: '9'

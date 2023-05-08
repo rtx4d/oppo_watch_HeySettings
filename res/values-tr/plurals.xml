@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kamera uygulamaları</item>
+        <item quantity="one">Kamera uygulaması</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">E-posta istemci uygulamaları</item>
+        <item quantity="one">E-posta istemci uygulaması</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Telefon uygulamaları</item>
+        <item quantity="one">Telefon uygulaması</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">En az %d CA sertifikası</item>
+        <item quantity="one">%d CA Sertifikası en az</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d defa denendi</item>
+        <item quantity="one">%d defa denendi</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d uygulama</item>
+        <item quantity="one">%d uygulama</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">En az %d uygulama</item>
+        <item quantity="one">En az %d uygulama</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Şifre en az %d harf içermelidir.</item>
+        <item quantity="one">Şifre en az 1 harf içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Şifre en az %d küçük harf içermelidir.</item>
+        <item quantity="one">Şifre en az 1 küçük harf içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Şifre, harf olmayan en az %d karakter içermelidir.</item>
+        <item quantity="one">Şifre, harf olmayan en az 1 karakter içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Şifre en az %d rakam içermelidir.</item>
+        <item quantity="one">Şifre en az 1 rakam içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Şifre en az %d özel sembol içermelidir.</item>
+        <item quantity="one">Şifre en az 1 özel sembol içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Şifre en az %d büyük harf içermelidir.</item>
+        <item quantity="one">Şifre en az 1 büyük harf içermelidir.</item>
+    </plurals>
+    <plurals name="pref_buttons">
+        <item quantity="other">Donanım düğmelerini özelleştir</item>
+        <item quantity="one">Donanım düğmesini özelleştir</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Geliştirici olmanıza %1$d adım kaldı.</item>
+        <item quantity="one">Geliştirici olmanıza %1$d adım kaldı.</item>
+    </plurals>
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="other">%d hakkınız kaldı</item>
+        <item quantity="one">%d hakkınız kaldı</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d g.</item>
+        <item quantity="one">%d g.</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d sa.</item>
+        <item quantity="one">%d sa.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d dk.</item>
+        <item quantity="one">%d dk.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d dk.</item>
+        <item quantity="one">%d dk.</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="other">%d saattir açık</item>
+        <item quantity="one">1 saattir açık</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="other">%d dakikadır açık</item>
+        <item quantity="one">1 dakikadır açık</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">1 dakika</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d cihaz bağlı</item>
+        <item quantity="one">%1$d cihaz bağlı</item>
+    </plurals>
+</resources>
