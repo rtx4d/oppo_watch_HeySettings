@@ -2,6 +2,5 @@
 <PreferenceScreen android:title="@string/pref_wristGesturesMenuTitle" android:orderingFromXml="false"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <SwitchPreference android:persistent="false" android:title="@string/pref_wristGestures" android:key="pref_wristGestures" android:order="10" />
-    <Preference android:icon="@drawable/ic_cc_settings_start_tutorial" android:persistent="false" android:title="@string/pref_launchTutorial" android:key="pref_launchTutorial" android:order="20" />
     <Preference android:icon="@drawable/ic_cc_settings_open_on_phone" android:persistent="false" android:title="@string/pref_moreTips" android:key="pref_moreTips" android:order="30" />
 </PreferenceScreen>

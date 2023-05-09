@@ -353,15 +353,6 @@
 
     invoke-virtual {p0, v0}, Lcom/google/android/clockwork/settings/gestures/WristGesturesSettingsFragment;->initWristGestures(Landroid/preference/SwitchPreference;)V
 
-    .line 49
-    const-string v0, "pref_launchTutorial"
-
-    invoke-virtual {p0, v0}, Lcom/google/android/clockwork/settings/gestures/WristGesturesSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, Lcom/google/android/clockwork/settings/gestures/WristGesturesSettingsFragment;->initLaunchTutorial(Landroid/preference/Preference;)V
-
     .line 50
     const-string v0, "pref_moreTips"
 

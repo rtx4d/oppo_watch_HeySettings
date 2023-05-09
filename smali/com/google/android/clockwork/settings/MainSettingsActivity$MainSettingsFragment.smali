@@ -202,41 +202,6 @@
 
     invoke-direct {v0, v2}, Landroid/preference/Preference;-><init>(Landroid/content/Context;)V
 
-    .line 408
-    .local v0, "p":Landroid/preference/Preference;
-    const-string v2, "pref_mainMmi"
-
-    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
-
-    .line 409
-    const v2, 0x7f110284
-
-    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setTitle(I)V
-
-    .line 410
-    const v2, 0x7f08011a
-
-    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setIcon(I)V
-
-    .line 411
-    new-instance v2, Lcom/google/android/clockwork/settings/-$$Lambda$MainSettingsActivity$MainSettingsFragment$e1sMDUZS4NrPh-xIE9mNbE1duqE;
-
-    invoke-direct {v2, p0}, Lcom/google/android/clockwork/settings/-$$Lambda$MainSettingsActivity$MainSettingsFragment$e1sMDUZS4NrPh-xIE9mNbE1duqE;-><init>(Lcom/google/android/clockwork/settings/MainSettingsActivity$MainSettingsFragment;)V
-
-    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
-    .line 417
-    invoke-virtual {p0}, Lcom/google/android/clockwork/settings/MainSettingsActivity$MainSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v0}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
-
-    .line 418
-    iput-boolean v1, p0, Lcom/google/android/clockwork/settings/MainSettingsActivity$MainSettingsFragment;->mMmiAdded:Z
-
-    .line 420
-    .end local v0    # "p":Landroid/preference/Preference;
     :cond_0
     return-void
 .end method

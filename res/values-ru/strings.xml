@@ -39,7 +39,7 @@
     <string name="accessibility_manual_zen_more_time">Увеличить продолжительность</string>
     <string name="accessibility_menu_item_settings">Настройки</string>
     <string name="accessibility_no_wifi">Wi-Fi отключен</string>
-    <string name="accessibility_power_button">Кнопка питания завершает вызов</string>
+    <string name="accessibility_power_button">Завершение вызова кнопкой питания</string>
     <string name="accessibility_service_default_description">Нет описания</string>
     <string name="accessibility_service_experimental">%1$s (эксперимент)</string>
     <string name="accessibility_wifi_off">Wi-Fi выключен</string>
@@ -53,7 +53,7 @@
     <string name="action_accessibility">Специальные возможности</string>
     <string name="action_accessibility_color_inversion">Инверсия цветов</string>
     <string name="action_accessibility_large_text">Крупный шрифт</string>
-    <string name="action_accessibility_magnification">Жесты для увеличения</string>
+    <string name="action_accessibility_magnification">Жест для увеличения</string>
     <string name="action_change_number">Изменить номер</string>
     <string name="action_enter_on_phone">Введите на телефоне</string>
     <string name="action_enter_on_watch">Войти на часах</string>
@@ -64,7 +64,7 @@
     <string name="action_lock_pin">PIN-код</string>
     <string name="action_open_on_phone">Открыть на телефоне</string>
     <string name="action_open_on_watch">Открыть на часах</string>
-    <string name="action_power_off">Отключить питание</string>
+    <string name="action_power_off">Выключение</string>
     <string name="action_request_activation">Запросить</string>
     <string name="action_restart">Перезапустить</string>
     <string name="action_retry">Повторить</string>
@@ -278,7 +278,7 @@
     <string name="buttons_rect_left_bottom">Внизу, левая сторона</string>
     <string name="buttons_rect_left_center">В центре слева</string>
     <string name="buttons_rect_left_top">Вверху, левая сторона</string>
-    <string name="buttons_rect_right_bottom">Внизу, правая сторона</string>
+    <string name="buttons_rect_right_bottom">Нижняя справа</string>
     <string name="buttons_rect_right_center">В центре справа</string>
     <string name="buttons_rect_right_top">Вверху, правая сторона</string>
     <string name="buttons_rect_top_center">Вверху</string>
@@ -312,7 +312,7 @@
     <string name="carrier_enabled_summaryOn">APN вкл.</string>
     <string name="category_personal">Личный профиль</string>
     <string name="category_work">Рабочий профиль</string>
-    <string name="change_watch_face">Сменить циферблат</string>
+    <string name="change_watch_face">Циферблат</string>
     <string name="changed_after_restart">Изменения вступят в силу после перезапуска</string>
     <string name="charge_length_format">%1$s назад</string>
     <string name="checking_for_updates">Проверка обновлений…</string>
@@ -521,7 +521,7 @@
     <string name="external_source_trusted">Разрешено</string>
     <string name="external_source_untrusted">Запрещено</string>
     <string name="factory_reset_confirmation">Отключить и сбросить настройки?</string>
-    <string name="factory_reset_confirmation_subtitle">При отключении часов настройки будут сброшены, а данные пользователя – удалены.</string>
+    <string name="factory_reset_confirmation_subtitle">После перезагрузки часов настройки будут сброшены, а данные пользователя – удалены.</string>
     <string name="factory_resetting">Сброс настроек…</string>
     <string name="failed_to_open_app_settings_toast">Не удалось открыть настройки приложения \"%1$s\"</string>
     <string name="fcc_equipment_id">Идентификатор оборудования</string>
@@ -557,7 +557,7 @@
  
 • Слабый сигнал сети.
 • Заряд батареи часов ниже 20 %."</string>
-    <string name="heytap_battery_life_assistant">Автоматическое энергосбережение включено</string>
+    <string name="heytap_battery_life_assistant">Автоматическое энергосбережение</string>
     <string name="heytap_cellularToggle">Мобильные данные</string>
     <string name="heytap_close_mobile_data_tips">"Отключение мобильных данных приведет к разрыву сетевого соединения, если часы не подключены через Bluetooth или сеть Wi-Fi. В ряду других могут выключиться следующие сервисы: 
  
@@ -604,18 +604,18 @@
     <string name="heytap_oem_warning_message">После включения этой функции устройство будет отключено.</string>
     <string name="heytap_oem_warning_tips">Для включения защиты перезагрузите часы</string>
     <string name="heytap_oem_warning_title">Вкл. разблокировку OEM-кодом?</string>
-    <string name="heytap_pref_fit">Привязать данные о тренировках и состоянии здоровья к Google Fit</string>
+    <string name="heytap_pref_fit">Синхронизация с Google Fit</string>
     <string name="heytap_pref_oem">Разблокировка OEM-кодом</string>
     <string name="heytap_pref_wear_ring">Звонить, когда часы на руке</string>
     <string name="heytap_screenon_animation">Динамическая тема экрана часов</string>
     <string name="heytap_screenon_animation_dialog_title">Динамические темы экрана часов автоматически воспроизводят анимацию при включении экрана часов. При этом расход заряда батареи увеличивается.</string>
-    <string name="heytap_sleep_optimization">Оптимизация на время сна</string>
+    <string name="heytap_sleep_optimization">Оптимизация во время сна</string>
     <string name="heytap_sleep_optimization_tips">После включения этой функции на часах будет выключен экран, звуки и вибрации для экономии заряда батареи, пока вы спите.</string>
     <string name="heytap_theater_mode_toast_button">Для включения экрана нажмите любую боковую кнопку.</string>
     <string name="heytap_titik_dialog_second">Чтобы увеличить время работы от батареи, функция \"Включать экран при наклоне\" будет отключена. Ее можно будет снова включить в разделе \"Настройки — Жесты\".</string>
     <string name="heytap_touch_lock_message">Экран часов будет заблокирован. Для разблокировки нажмите и удерживайте любую кнопку.</string>
-    <string name="heytap_touch_lock_title">Включить блокировку касанием?</string>
-    <string name="heytap_wear_settings">Наденьте часы</string>
+    <string name="heytap_touch_lock_title">Блокировка сенсорного экрана</string>
+    <string name="heytap_wear_settings">Рука с часами</string>
     <string name="home">Настройки</string>
     <string name="ime_security_warning">Любой текст, который вы вводите с помощью приложения \"%1$s\", например, пароли или реквизиты банковских карт, может быть сохранен на сторонних серверах. Вы уверены, что хотите продолжить?</string>
     <string name="immediately_destroy_activities">Вытеснение фоновых Activity</string>
@@ -671,7 +671,7 @@
     <string name="language_not_supported_title">Язык не поддерживается.</string>
     <string name="launch_defaults_none">Настройки по умолчанию не установлены</string>
     <string name="launch_defaults_some">Установлены некоторые настройки по умолчанию</string>
-    <string name="left_hand">Левое запястье</string>
+    <string name="left_hand">Левая рука</string>
     <string name="local_backup_password_summary_change">Нажмите, чтобы изменить или удалить пароль для резервного копирования</string>
     <string name="local_backup_password_summary_none">Полные резервные копии в настоящее время не защищены</string>
     <string name="local_backup_password_title">Пароль для резервного копирования</string>
@@ -854,7 +854,7 @@
     <string name="power_remaining_only_more_than_subtext">Хватит более чем на %1$s</string>
     <string name="power_remaining_settings_home_page">Уровень заряда – %1$s. %2$s.</string>
     <string name="power_save_after_settings">Режим энергосбережения</string>
-    <string name="power_saving_mode">Энергосбер.</string>
+    <string name="power_saving_mode">Энергосбережение</string>
     <string name="pref_about">О системе</string>
     <string name="pref_accessibilityVolume">Громкость подсказок</string>
     <string name="pref_accounts">Аккаунты</string>
@@ -881,8 +881,7 @@
     <string name="pref_batterySaver">Режим энергосбережения</string>
     <string name="pref_batterySaverMode">Батарея</string>
     <string name="pref_batterySaverMode_summary">%d %%</string>
-    <string name="pref_batterySaverMode_title">"Батарея: 
-%d %%"</string>
+    <string name="pref_batterySaverMode_title">"Заряд батареи: %d %%"</string>
     <string name="pref_batterySaverScr_dialogMessage">Часы будут показывать только время. Чтобы выйти из этого режима, перезапустите часы (нажмите и удерживайте кнопку питания).</string>
     <string name="pref_batterySaver_dialogMessage">Часы будут экономить энергию и показывать только время. Чтобы выйти из этого режима, дважды нажмите кнопку питания.</string>
     <string name="pref_batterySaver_dialogTitle">Включить режим энергосбережения?</string>
@@ -893,7 +892,7 @@
     <string name="pref_bluetoothConnecting">Подключение к…</string>
     <string name="pref_bluetoothDisconnectedFrom">Отключено от устройства %s</string>
     <string name="pref_bluetoothEnabled">Bluetooth</string>
-    <string name="pref_bluetoothHfp">Слушать голосовые вызовы на часах</string>
+    <string name="pref_bluetoothHfp">Принимать голосовые вызовы на часах</string>
     <string name="pref_bluetoothOn">Модуль Bluetooth включен</string>
     <string name="pref_bluetoothPaired">Сопряженные устройства</string>
     <string name="pref_bluetoothScan">Искать устройства рядом</string>
@@ -941,7 +940,7 @@
     <string name="pref_deviceAdministration">Управление устройством</string>
     <string name="pref_deviceAdministrators">Администра­торы устройства</string>
     <string name="pref_disableAutomaticWifi">Не подключаться к Wi-Fi автоматически</string>
-    <string name="pref_dndOptions">Не учитывать режим \"Не беспокоить\"…</string>
+    <string name="pref_dndOptions">Исключения для режима \"Не беспокоить\"</string>
     <string name="pref_dndOptions_alarms">Будильник</string>
     <string name="pref_dndOptions_calls">Контакты (звонки)</string>
     <string name="pref_dndOptions_calls_favorites">Избранные контакты (звонки)</string>
@@ -975,7 +974,7 @@
     <string name="pref_exerciseDetection_biking">Велоспорт</string>
     <string name="pref_exerciseDetection_running">Бег</string>
     <string name="pref_exerciseDetection_walking">Ходьба</string>
-    <string name="pref_factoryReset">Отключить и сбросить настройки</string>
+    <string name="pref_factoryReset">Сброс устройства</string>
     <string name="pref_fontSize">Размер шрифта</string>
     <string name="pref_forceRtlLayout">Отразить интерфейс справа налево</string>
     <string name="pref_hotwordDetection">Распознавание \"Oкей, Google\"</string>
@@ -1003,14 +1002,14 @@
     <string name="pref_oemDebug">Производитель</string>
     <string name="pref_oemDebug_summary">Отладка</string>
     <string name="pref_phoneNumber">Изменение номера телефона</string>
-    <string name="pref_powerOff">Отключить питание</string>
+    <string name="pref_powerOff">Выключение</string>
     <string name="pref_powerOptimizations">Экономия заряда батареи</string>
     <string name="pref_praisethesun">Яркость экрана при солнечном свете</string>
-    <string name="pref_previewMode_descHigh">Показывать всегда</string>
-    <string name="pref_previewMode_descNormal">Показывать несколько секунд</string>
-    <string name="pref_previewMode_descOff">Не показывать</string>
-    <string name="pref_previewMode_labelHigh">Высокий приоритет</string>
-    <string name="pref_previewMode_labelNormal">Обычный режим</string>
+    <string name="pref_previewMode_descHigh"/>
+    <string name="pref_previewMode_descNormal">Через несколько секунд</string>
+    <string name="pref_previewMode_descOff"/>
+    <string name="pref_previewMode_labelHigh">Без скрытия</string>
+    <string name="pref_previewMode_labelNormal">Со скрытием</string>
     <string name="pref_previewMode_labelOff">Отключить</string>
     <string name="pref_removeAccount">Удалить аккаунт</string>
     <string name="pref_restart">Перезапустить</string>
@@ -1038,13 +1037,13 @@
     <string name="pref_tap_and_pay_title">Бесконтактная оплата</string>
     <string name="pref_tiltToBright">Энергосбережение при наклоне</string>
     <string name="pref_tiltToWake">Включать экран при наклоне</string>
-    <string name="pref_touchToWakeAlt">Включение касанием</string>
+    <string name="pref_touchToWakeAlt">Включать экран при касании</string>
     <string name="pref_unlockSim">Разблокировать SIM</string>
     <string name="pref_vibrateForCalls">Вибросигнал при вызове</string>
     <string name="pref_vibrationLevel">Вибросигнал</string>
-    <string name="pref_vibrationLevel_labelDouble">Двойной</string>
+    <string name="pref_vibrationLevel_labelDouble">Короткий + длинный</string>
     <string name="pref_vibrationLevel_labelLong">Длинный</string>
-    <string name="pref_vibrationLevel_labelNormal">Обычный</string>
+    <string name="pref_vibrationLevel_labelNormal">Короткий</string>
     <string name="pref_vip_contacts">Избранные контакты</string>
     <string name="pref_voiceAssistant">Голосовой помощник</string>
     <string name="pref_voicemailNumber">Изменить номер голосовой почты</string>
@@ -1368,7 +1367,7 @@
 • Часы находятся далеко от телефона.
 • Часам не удается подключиться к сети Wi-Fi.
 • В некоторых других ситуациях."</string>
-    <string name="wifi_about_automatic_title">О сети Wi-Fi</string>
+    <string name="wifi_about_automatic_title">Об работе Wi-Fi</string>
     <string name="wifi_action_dialog_enter_on_phone">Введите пароль для подключения к сети</string>
     <string name="wifi_action_dialog_title_add_network">Чтобы добавить сеть, откройте приложение Wear OS на телефоне.</string>
     <string name="wifi_activity_title">Wi-Fi</string>
